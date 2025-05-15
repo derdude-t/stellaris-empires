@@ -11375,15 +11375,15 @@
  
 			}
 		}
-		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
-
-
-
-
-
-
-
-
+		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
+
+
+
+
+
+
+
+
 Despite their reclusive nature, the Dwaph exhibit a complex social structure and excel in crafting and engineering. As they advance technologically, they aim to restore Dwaphiona to its former state and seek to explore the cosmos, uncovering potential allies or adversaries among other civilizations."
 		name_list="TOX3"
 		gender=not_set
@@ -16912,15 +16912,15 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
  
 			}
 		}
-		species_bio="The Amanitans were a fungoid species whose materialist, ruthlessly meritocratic civilization on their homeworld was devastated by their own hubris - constructing a massive particle accelerator that triggered an apocalyptic \"Mycelial Shockwave.\" Across millennia of regression after this cataclysm, the most cunning and industrious survivors dominated through backbreaking labor, slowly rebuilding industrial productivity.
-
-
-
-
-
-
-
-
+		species_bio="The Amanitans were a fungoid species whose materialist, ruthlessly meritocratic civilization on their homeworld was devastated by their own hubris - constructing a massive particle accelerator that triggered an apocalyptic \"Mycelial Shockwave.\" Across millennia of regression after this cataclysm, the most cunning and industrious survivors dominated through backbreaking labor, slowly rebuilding industrial productivity.
+
+
+
+
+
+
+
+
 Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined with their obsession for merit-based success drives their egalitarian democracy's determination to re-ascend as galactic architects."
 		name_list="FUN2"
 		gender=indeterminable
@@ -20945,4 +20945,1264 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_crafters"
 	}
 	origin="origin_default"
+}
+"Commonwealth of Man"=
+{
+	key="Commonwealth of Man"
+	ship_prefix=
+	{
+		key="PRESCRIPTED_ship_prefix_humans2"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="PRESCRIPTED_species_name_humans2"
+		}
+		species_plural=
+		{
+			key="PRESCRIPTED_species_plural_humans2"
+		}
+		species_adjective=
+		{
+			key="PRESCRIPTED_species_adjective_humans2"
+		}
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name=
+	{
+		key="EMPIRE_DESIGN_humans2"
+	}
+	adjective=
+	{
+		key="PRESCRIPTED_adjective_humans2"
+	}
+	authority="auth_dictatorial"
+	flags=
+	{
+		"human_2"
+		"custom_start_screen"
+	}
+	government="gov_military_dictatorship"
+	planet_name=
+	{
+		key="NAME_Unity"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="NAME_Deneb"
+	}
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_934.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="DiamondInverted.dds"
+		}
+		colors=
+		{
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="PRESCRIPTED_ruler_name_humans2"
+			}
+		}
+		portrait="human_female_04"
+		texture=0
+		evolution_mask=0
+		attachment=6
+		clothes=4
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="ethic_dark_side3_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_nationalistic_zeal"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_default"
+}
+"Okon Commune"=
+{
+	key="Okon Commune"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="PLANT"
+		portrait="pla14"
+		species_name=
+		{
+			key="Oko"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Okos"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Okon"
+			literal=yes
+		}
+		name_list="PLANT3"
+		gender=indeterminable
+		trait="trait_plantoid_budding"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_nomadic"
+		trait="trait_humanoid_psychological_infertility"
+	}
+	name=
+	{
+		key="Okon Commune"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Okon"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	planet_name=
+	{
+		key="Mother Oko"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Mother Oko"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="biogenesis_02"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9319.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="DiamondInverted.dds"
+		}
+		colors=
+		{
+			"dark_green"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="PLANT3_CHR_Rowan"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="PLANT3_CHR_Hawthorn"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="pla14"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="hive1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_pacifist"
+	civics=
+	{
+		"civic_shared_burden"
+		"civic_environmental_architects"
+	}
+	origin="origin_default"
+}
+"The Hoonan System"=
+{
+	key="The Hoonan System"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="cyb8"
+		species_name=
+		{
+			key="Hoon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Hoons"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Hoonan"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MACHINE_AGE1"
+		gender=not_set
+		trait="trait_genetic_memory"
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+		trait="trait_nascent_stage"
+		trait="trait_repugnant"
+	}
+	name=
+	{
+		key="The Hoonan System"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Hoonan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_illuminated_autocracy"
+	planet_name=
+	{
+		key="Hoonan"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Hoonan"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="just-more-flags"
+			file="flag_machine2.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="Hive3.dds"
+		}
+		colors=
+		{
+			"red_orange"
+			"dark_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Wren Mainframe"
+				literal=yes
+			}
+		}
+		portrait="cyb8_m"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=3
+		ruler_title=
+		{
+			key="Mainframe Reader"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="Mainframe Trainee"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Mainframe Reader"
+			literal=yes
+		}
+		heir_title_female=
+		{
+			key="Mainframe Trainee"
+			literal=yes
+		}
+		trait="trait_ruler_eye_for_talent"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="command5_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_dystopian_society"
+		"civic_technocracy"
+	}
+	origin="origin_mechanists"
+}
+"Soul of the Galaxy"=
+{
+	key="Soul of the Galaxy"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="AVI"
+		portrait="bio4"
+		species_name=
+		{
+			key="Fegh"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Feghs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Fegh"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Soul of the Galaxy"
+		name_list="AVI4"
+		gender=not_set
+		trait="trait_latent_psionic"
+		trait="trait_flight"
+		trait="trait_familial"
+		trait="trait_traditional"
+		trait="trait_hollow_bones"
+	}
+	name=
+	{
+		key="Soul of the Galaxy"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Fegh's"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	planet_name=
+	{
+		key="Fegh's Hearing"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Fegh's Hearing"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="biogenesis_02"
+	city_graphical_culture="biogenesis_02"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9321.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="fabric_stripe_negative_rotated.dds"
+		}
+		colors=
+		{
+			"intense_pink"
+			"shadow_purple"
+			"turquoise"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="AVI4_CHR_Hugin"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="AVI4_CHR_Sakati"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="bio4"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="outdoor17_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_exalted_priesthood"
+		"civic_genetic_identification"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"Children of the Stars"=
+{
+	key="Children of the Stars"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="REP"
+		portrait="bio9"
+		species_name=
+		{
+			key="Saar"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Saari"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Saar"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="The Message must be Spread"
+		name_list="HUM4"
+		gender=indeterminable
+		trait="trait_traditional"
+		trait="trait_chromalogs"
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_nomadic"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="Children of the Stars"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Saaran"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="Saarworld"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="Saarworld"
+		literal=yes
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="just-more-flags"
+			file="flag_nature1.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="fabric_stripe.dds"
+		}
+		colors=
+		{
+			"red"
+			"toxic_green"
+			"red"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="HUM1_CHR_Thalotha"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="bio9"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="shroudwalkers_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_dimensional_worship"
+		"civic_shared_burden"
+	}
+	origin="origin_riftworld"
+}
+"Will of the Creator"=
+{
+	key="Will of the Creator"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="cyb_machine"
+		species_name=
+		{
+			key="Mono"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Monos"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Mono"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MACHINE_AGE3"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_auto_mod_robotic"
+		trait="trait_robot_loyalty_circuits"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_luxurious"
+	}
+	name=
+	{
+		key="Will of the Creator"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Mono"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="Creta"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="Creta"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="synthetics_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="imperial"
+			file="imperial_9306.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="fabric_stripe_negative.dds"
+		}
+		colors=
+		{
+			"desert_yellow"
+			"burgundy"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="INDIMACHINES2_CHR_S._Tusu"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="INDIMACHINES2_CHR_Neelar"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb_machine"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="robotic11_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_exalted_priesthood"
+		"civic_individual_machine_replication"
+	}
+	origin="origin_here_be_dragons"
+}
+"The Heralds"=
+{
+	key="The Heralds"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="ART"
+		portrait="synth09"
+		species_name=
+		{
+			key="Herald"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Heralds"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Heraldian"
+			literal=yes
+		}
+		name_list="MOL2"
+		gender=not_set
+		trait="trait_nomadic"
+		trait="trait_camouflage"
+		trait="trait_rapid_breeders"
+		trait="trait_fleeting"
+		trait="trait_humanoid_jinxed"
+	}
+	name=
+	{
+		key="The Heralds"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Heraldian"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_grim_council"
+	planet_name=
+	{
+		key="Nomoria"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nomoria"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_9319.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="cylinder.dds"
+		}
+		colors=
+		{
+			"shadow_steel"
+			"orange"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="HUM1_CHR_Thalotha"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="synth09"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape14_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_death_cult"
+		"civic_guided_sapience"
+	}
+	origin="origin_default"
+}
+"The First"=
+{
+	key="The First"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="ART"
+		portrait="art20"
+		species_name=
+		{
+			key="Atroz"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Atrozi"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Atroz"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="ART3"
+		gender=not_set
+	}
+	name=
+	{
+		key="The First"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Firstan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	planet_name=
+	{
+		key="Atrozal"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Atrozal"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9312.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="Hive1o.dds"
+		}
+		colors=
+		{
+			"dark_teal"
+			"black"
+			"dark_teal"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="ART3_CHR_Lopdolf"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="ART3_CHR_Leexidanaca"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="art20"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="robotic6_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_natural_design"
+		"civic_imperial_cult"
+	}
+	origin="origin_remnants"
+}
+"Nylli Company"=
+{
+	key="Nylli Company"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="synth04"
+		species_name=
+		{
+			key="Nyll"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Nylli"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Nylli"
+			literal=yes
+		}
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_thrifty"
+		trait="trait_talented"
+		trait="trait_wasteful"
+		trait="trait_repugnant"
+	}
+	name=
+	{
+		key="Nylli Company"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nylli"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name=
+	{
+		key="Onyllia"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="Onyllia"
+		literal=yes
+	}
+	initializer="void_dweller_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_9413.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="fabric_half.dds"
+		}
+		colors=
+		{
+			"blue"
+			"red_orange"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="HUM1_CHR_Elemani"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="synth04"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="tech16_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_naval_contractors"
+		"civic_ruthless_competition"
+	}
+	origin="origin_void_dwellers"
 }
