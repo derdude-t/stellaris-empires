@@ -1,82 +1,82 @@
-EthicsCombination,EmpireKeys
-AUT;FAN_MAT,Enlightened Empire;Gorothian Mechanic Technocracy;People's Supreme Republics;Voor Technocracy
-AUT;FAN_MIL,Greater Prossan Empire;Imperium Remanum;Seventh Army
-AUT;FAN_PAC,Rharion's Idyll Protectorate
-AUT;FAN_SPI,League of Psion;Will of Phila;Will of the Creator
-AUT;FAN_XIL,Interstellar Financial Clerkship
-AUT;FAN_XOB,Azith Reick;Sneed's Feed & Gaia Seed
-AUT;MAT;MIL,Empire of The Fist
-AUT;MAT;PAC,
-AUT;MAT;XIL,Gryphonian University of Astropolitical Sciences
-AUT;MAT;XOB,Council of the Reborn
-AUT;MIL;SPI,Holy Volturian Empire;Infinite Rakatan Empire;Relurian Conclave;Symbiotes of Terra Palia;The Caliphate
-AUT;MIL;XIL,Souki Nation
-AUT;MIL;XOB,Kukia Teikoku;Rhalata Shera;The Blue Horde
-AUT;PAC;SPI,
-AUT;PAC;XIL,Imperial Core of Vermillion
-AUT;PAC;XOB,
-AUT;SPI;XIL,Realm of the Highest Being
-AUT;SPI;XOB,Nacloridan State;Realm of the Azurian Crown;The First
-EGA;FAN_MAT,League of Nereum States;Oxanalytoran Galactic Consensus;Supreme Amanitan Republics;The Aeon Vanguard
-EGA;FAN_MIL,
-EGA;FAN_PAC,United Agrarian Communes
-EGA;FAN_SPI,Children of the Stars;The Following of Grimm;The Heralds
-EGA;FAN_XIL,Free Blorg Community;Tyrathian Cooperative
-EGA;FAN_XOB,Lone Star State
-EGA;MAT;MIL,Arken Mechnocracy;The Purtailians
-EGA;MAT;PAC,
-EGA;MAT;XIL,Free Interstellar Nations;Guilds of Minimor
-EGA;MAT;XOB,
-EGA;MIL;SPI,
-EGA;MIL;XIL,League of Free Nations;Systems of the Free
-EGA;MIL;XOB,
-EGA;PAC;SPI,
-EGA;PAC;XIL,Etharian Unity;Federal Republic of Almania;Orion's Refuge
-EGA;PAC;XOB,
-EGA;SPI;XIL,
-EGA;SPI;XOB,
-FAN_AUT;MAT,Black Tyrannis;League of Survivors;Second Shahan-shahi;The Hoonan System;The Promethokratia
-FAN_AUT;MIL,Authority of Owell;Dark Legion;Gryphite Emergency Government;The Great Hond Empire;Union of Stellar Socialist Republics
-FAN_AUT;PAC,
-FAN_AUT;SPI,Bathyrian Archduchy;Realm of the Divine Throne;Realm of the Obsidian Crown;Thralldom of Ea Nasir
-FAN_AUT;XIL,
-FAN_AUT;XOB,The Thousand Year Empire
-FAN_EGA;MAT,Democratic Republic of Almania;Tumbatoran Sovereignty;United Ambrosian Chloroforges
-FAN_EGA;MIL,Black Army;People's Liberation Army;The Red Army
-FAN_EGA;PAC,Okon Commune
-FAN_EGA;SPI,Commune of Haumea;Hiran Astral Fellowship
-FAN_EGA;XIL,Federation of Cradon;Fravallonian Aquifiers;Union of Free Peoples
-FAN_EGA;XOB,
-FAN_MAT;MIL,Enora's Hope;Mandate of Imaria;United Districts of Dix
-FAN_MAT;PAC,The Sophan Directorate
-FAN_MAT;XIL,
-FAN_MAT;XOB,The Dwaph Complex
-FAN_MIL;MAT,Nylli Company
-FAN_MIL;SPI,
-FAN_MIL;XIL,Wagner PMC
-FAN_MIL;XOB, Guardians of Yggdrasil;Commonwealth of Man;Gox Legion;Vrinn Clique
-FAN_PAC;MAT,
-FAN_PAC;SPI,
-FAN_PAC;XIL,Delphonan Confederacy;Masters of the Starry Canvas
-FAN_PAC;XOB,Celestrial Empire;Hermit Kingdom of Juche;Independent Ziiran State
-FAN_SPI;MIL,
-FAN_SPI;PAC,Covenant of Uriy
-FAN_SPI;XIL,The Galactic Papacy
-FAN_SPI;XOB,Order of Mar'O;Soul of the Galaxy;Zrolian Alliance
-FAN_XIL;MAT,Shadow Council
-FAN_XIL;MIL,Liberty Vanguard
-FAN_XIL;PAC,Senate of Codexia;Stellar Viss Republic
-FAN_XIL;SPI,
-FAN_XOB;MAT,
-FAN_XOB;MIL,Great Fafossan Crusade;Haa'ra Perfectionists;Imperium of Man;Ordensstaat Burgund;The Cravers
-FAN_XOB;PAC,Silvernia
-FAN_XOB;SPI,Cult of Dioa;Mandate of the Great Old Ones
-GES,Atoriax Republic;Awaiter of the Singularity;Hal-ka Consciousness;Human Rescue Protocol;Overwrite Directive;REX1;Rapaxspora Dominans;Roots of the Cedar;Sol Emergency Government;The World-Eaters;Vants;Vastuan Mining Corp.;pi_calc.py
-MAT;MIL;XIL,Federation of Terrakin;Hirriosh Empire
-MAT;MIL;XOB,Metal Warrior Kingdom
-MAT;PAC;XIL,Seekers of the Past
-MAT;PAC;XOB,Alari Ascendancy
-MIL;SPI;XIL,Guards to the Gates of Babylon ;Order of the Ethereal
-MIL;SPI;XOB,Clerk State;The Mortal Archkingdom
-PAC;SPI;XIL,Nogger Choc Incorporate Ltd. ;Sneeding Initiative
-PAC;SPI;XOB,Revenant Order;Sacred Circuitry Order;State of Utopia;The Shroudborn
+N,EthicsCombination,EmpireKeys
+4,AUT;FAN_MAT,Enlightened Empire;Gorothian Mechanic Technocracy;People's Supreme Republics;Voor Technocracy
+3,AUT;FAN_MIL,Greater Prossan Empire;Imperium Remanum;Seventh Army
+1,AUT;FAN_PAC,Rharion's Idyll Protectorate
+3,AUT;FAN_SPI,League of Psion;Will of Phila;Will of the Creator
+1,AUT;FAN_XIL,Interstellar Financial Clerkship
+2,AUT;FAN_XOB,Azith Reick;Sneed's Feed & Gaia Seed
+1,AUT;MAT;MIL,Empire of The Fist
+0,AUT;MAT;PAC,
+1,AUT;MAT;XIL,Gryphonian University of Astropolitical Sciences
+1,AUT;MAT;XOB,Council of the Reborn
+5,AUT;MIL;SPI,Holy Volturian Empire;Infinite Rakatan Empire;Relurian Conclave;Symbiotes of Terra Palia;The Caliphate
+1,AUT;MIL;XIL,Souki Nation
+3,AUT;MIL;XOB,Kukia Teikoku;Rhalata Shera;The Blue Horde
+0,AUT;PAC;SPI,
+1,AUT;PAC;XIL,Imperial Core of Vermillion
+0,AUT;PAC;XOB,
+1,AUT;SPI;XIL,Realm of the Highest Being
+3,AUT;SPI;XOB,Nacloridan State;Realm of the Azurian Crown;The First
+4,EGA;FAN_MAT,League of Nereum States;Oxanalytoran Galactic Consensus;Supreme Amanitan Republics;The Aeon Vanguard
+0,EGA;FAN_MIL,
+1,EGA;FAN_PAC,United Agrarian Communes
+3,EGA;FAN_SPI,Children of the Stars;The Following of Grimm;The Heralds
+2,EGA;FAN_XIL,Free Blorg Community;Tyrathian Cooperative
+1,EGA;FAN_XOB,Lone Star State
+2,EGA;MAT;MIL,Arken Mechnocracy;The Purtailians
+0,EGA;MAT;PAC,
+2,EGA;MAT;XIL,Free Interstellar Nations;Guilds of Minimor
+0,EGA;MAT;XOB,
+0,EGA;MIL;SPI,
+2,EGA;MIL;XIL,League of Free Nations;Systems of the Free
+0,EGA;MIL;XOB,
+0,EGA;PAC;SPI,
+3,EGA;PAC;XIL,Etharian Unity;Federal Republic of Almania;Orion's Refuge
+0,EGA;PAC;XOB,
+0,EGA;SPI;XIL,
+0,EGA;SPI;XOB,
+5,FAN_AUT;MAT,Black Tyrannis;League of Survivors;Second Shahan-shahi;The Hoonan System;The Promethokratia
+5,FAN_AUT;MIL,Authority of Owell;Dark Legion;Gryphite Emergency Government;The Great Hond Empire;Union of Stellar Socialist Republics
+0,FAN_AUT;PAC,
+4,FAN_AUT;SPI,Bathyrian Archduchy;Realm of the Divine Throne;Realm of the Obsidian Crown;Thralldom of Ea Nasir
+0,FAN_AUT;XIL,
+1,FAN_AUT;XOB,The Thousand Year Empire
+3,FAN_EGA;MAT,Democratic Republic of Almania;Tumbatoran Sovereignty;United Ambrosian Chloroforges
+3,FAN_EGA;MIL,Black Army;People's Liberation Army;The Red Army
+1,FAN_EGA;PAC,Okon Commune
+2,FAN_EGA;SPI,Commune of Haumea;Hiran Astral Fellowship
+3,FAN_EGA;XIL,Federation of Cradon;Fravallonian Aquifiers;Union of Free Peoples
+0,FAN_EGA;XOB,
+3,FAN_MAT;MIL,Enora's Hope;Mandate of Imaria;United Districts of Dix
+1,FAN_MAT;PAC,The Sophan Directorate
+0,FAN_MAT;XIL,
+1,FAN_MAT;XOB,The Dwaph Complex
+1,FAN_MIL;MAT,Nylli Company
+0,FAN_MIL;SPI,
+1,FAN_MIL;XIL,Wagner PMC
+4,FAN_MIL;XOB, Guardians of Yggdrasil;Commonwealth of Man;Gox Legion;Vrinn Clique
+0,FAN_PAC;MAT,
+0,FAN_PAC;SPI,
+2,FAN_PAC;XIL,Delphonan Confederacy;Masters of the Starry Canvas
+3,FAN_PAC;XOB,Celestrial Empire;Hermit Kingdom of Juche;Independent Ziiran State
+0,FAN_SPI;MIL,
+1,FAN_SPI;PAC,Covenant of Uriy
+1,FAN_SPI;XIL,The Galactic Papacy
+3,FAN_SPI;XOB,Order of Mar'O;Soul of the Galaxy;Zrolian Alliance
+1,FAN_XIL;MAT,Shadow Council
+1,FAN_XIL;MIL,Liberty Vanguard
+2,FAN_XIL;PAC,Senate of Codexia;Stellar Viss Republic
+0,FAN_XIL;SPI,
+0,FAN_XOB;MAT,
+5,FAN_XOB;MIL,Great Fafossan Crusade;Haa'ra Perfectionists;Imperium of Man;Ordensstaat Burgund;The Cravers
+1,FAN_XOB;PAC,Silvernia
+2,FAN_XOB;SPI,Cult of Dioa;Mandate of the Great Old Ones
+13,GES,Atoriax Republic;Awaiter of the Singularity;Hal-ka Consciousness;Human Rescue Protocol;Overwrite Directive;REX1;Rapaxspora Dominans;Roots of the Cedar;Sol Emergency Government;The World-Eaters;Vants;Vastuan Mining Corp.;pi_calc.py
+2,MAT;MIL;XIL,Federation of Terrakin;Hirriosh Empire
+1,MAT;MIL;XOB,Metal Warrior Kingdom
+1,MAT;PAC;XIL,Seekers of the Past
+1,MAT;PAC;XOB,Alari Ascendancy
+2,MIL;SPI;XIL,Guards to the Gates of Babylon ;Order of the Ethereal
+2,MIL;SPI;XOB,Clerk State;The Mortal Archkingdom
+2,PAC;SPI;XIL,Nogger Choc Incorporate Ltd. ;Sneeding Initiative
+4,PAC;SPI;XOB,Revenant Order;Sacred Circuitry Order;State of Utopia;The Shroudborn
