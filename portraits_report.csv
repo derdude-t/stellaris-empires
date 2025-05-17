@@ -1,0 +1,125 @@
+N;Name;Reiche
+1;aqu1;Liberty Vanguard
+1;aqu10;Fravallonian Aquifiers
+1;aqu11;Realm of the Highest Being
+1;aqu12;Shadow Council
+1;aqu15;Realm of the Azurian Crown
+1;aqu2;Nacloridan State
+1;aqu5;Holy Volturian Empire
+1;aqu6;League of Nereum States
+1;aqu8;Mandate of the Great Old Ones
+1;aqu9;Delphonan Confederacy
+1;art17;Enlightened Empire
+1;art20;The First
+1;art3;The Cravers
+1;art7;People's Supreme Republics
+1;art9;Senate of Codexia
+1;avi1;Hiran Astral Fellowship
+1;avi10;Will of Phila
+1;avi12;Thralldom of Ea Nasir
+1;avi13;The Following of Grimm
+1;avi14;Federation of Cradon
+1;avi15;The Sophan Directorate
+1;avi16;Greater Prossan Empire
+1;avi18;Silvernia
+1;avi2;Imperium Remanum
+1;avi4;League of Free Nations
+1;avi5;Orion's Refuge
+1;avi7;Great Fafossan Crusade
+1;avi8;Hermit Kingdom of Juche
+1;avi9;Stellar Viss Republic
+1;bio4;Soul of the Galaxy
+1;bio6;The Purtailians
+1;bio9;Children of the Stars
+1;cyb8;The Hoonan System
+1;cyb9;Hal-ka Consciousness
+2;cyb_machine;"Will of the Creator;pi_calc.py"
+2;fun1;"Sneed's Feed & Gaia Seed;Sneeding Initiative"
+1;fun10;Tyrathian Cooperative
+1;fun11;Supreme Amanitan Republics
+1;fun12;Free Blorg Community
+1;fun16;Rapaxspora Dominans
+1;fun17;Black Army
+1;fun2;United Districts of Dix
+1;fun6;Black Tyrannis
+1;fun7;Covenant of Uriy
+8;human;"Commonwealth of Man;Federation of Terrakin;Imperium of Man;Lone Star State;Metal Warrior Kingdom;Order of the Ethereal;secondary_Human Rescue Protocol;secondary_Sol Emergency Government"
+1;human_legacy;secondary_Lone Star State
+2;humanoid_03;"Alari Ascendancy;Empire of The Fist"
+2;humanoid_05;"Clerk State;Interstellar Financial Clerkship"
+1;humanoid_hp_01;Realm of the Divine Throne
+1;humanoid_hp_06;Voor Technocracy
+2;humanoid_hp_07;"Relurian Conclave;Revenant Order"
+1;humanoid_hp_10;League of Survivors
+2;humanoid_hp_12;"Vrinn Clique;secondary_Clerk State"
+1;humanoid_hp_13;People's Liberation Army
+1;humanoid_hp_14;Mandate of Imaria
+1;lith1;Seventh Army
+1;lith11;The World-Eaters
+1;lith12;Zrolian Alliance
+1;lith13;Guilds of Minimor
+1;lith15;The Thousand Year Empire
+1;lith2;Gryphite Emergency Government
+1;lith3;secondary_Nacloridan State
+1;lith4;The Red Army
+1;lith5;Dark Legion
+1;lith6;Commune of Haumea
+1;lith7;Awaiter of the Singularity
+1;lith_human;The Aeon Vanguard
+1;lith_machine;REX1
+1;mam1;State of Utopia
+2;mam10;"secondary_Overwrite Directive;secondary_The Thousand Year Empire"
+1;mam11;Bathyrian Archduchy
+1;mam13;Union of Stellar Socialist Republics
+2;mam2;"Haa'ra Perfectionists;Rharion's Idyll Protectorate"
+1;mam5;Tumbatoran Sovereignty
+2;mam6;"Democratic Republic of Almania;Federal Republic of Almania"
+1;mam7;Hirriosh Empire
+2;mol1;"Arken Mechnocracy;Kukia Teikoku"
+1;mol14;Guards to the Gates of Babylon 
+1;mol2;Atoriax Republic
+1;mol3;Gorothian Mechanic Technocracy
+1;mol5;The Blue Horde
+1;mol7;Vants
+1;nec1;Azith Reick
+1;nec10;Realm of the Obsidian Crown
+2;nec11;"Second Shahan-shahi;Seekers of the Past"
+1;nec13;Ordensstaat Burgund
+1;nec14;The Mortal Archkingdom
+1;nec3;The Caliphate
+2;nec4;"Imperial Core of Vermillion;The Galactic Papacy"
+1;nec7;Authority of Owell
+1;nec8;Council of the Reborn
+1;nec9;Rhalata Shera
+1;pla12;The Shroudborn
+1;pla13; Guardians of Yggdrasil
+1;pla14;Okon Commune
+1;pla16_baol;Roots of the Cedar
+1;pla2;Celestrial Empire
+1;pla3;League of Psion
+1;pla5;Masters of the Starry Canvas
+1;pla8;United Agrarian Communes
+1;rep1;Etharian Unity
+1;rep10;Wagner PMC
+1;rep12;secondary_Realm of the Obsidian Crown
+1;rep13;Gox Legion
+1;rep15;Souki Nation
+1;rep3;Infinite Rakatan Empire
+1;rep5;Order of Mar'O
+1;rep6;Union of Free Peoples
+1;sd_pla_robot;Overwrite Directive
+2;sd_rep_robot;"Human Rescue Protocol;Sol Emergency Government"
+1;synth01;Enora's Hope
+1;synth04;Nylli Company
+1;synth09;The Heralds
+1;synth_machine_03;Vastuan Mining Corp.
+1;tox1;Free Interstellar Nations
+1;tox10;The Promethokratia
+1;tox14;Sacred Circuitry Order
+1;tox15;Oxanalytoran Galactic Consensus
+2;tox2;"Cult of Dioa;The Dwaph Complex"
+1;tox4;Nogger Choc Incorporate Ltd. 
+1;tox5;Symbiotes of Terra Palia
+1;tox6;Gryphonian University of Astropolitical Sciences
+1;tox7;The Great Hond Empire
+1;tox8;Systems of the Free
