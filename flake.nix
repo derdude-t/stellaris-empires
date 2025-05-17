@@ -1,52 +1,48 @@
 {
-  description = "Ein Rust-Skript zum Entfernen leerer Zeilen aus einer Datei, mit automatischem Backup-Mechanismus.";
+  description = "Ein Python-Skript zum Entfernen leerer Zeilen aus einer Datei, mit automatischem Backup-Mechanismus.";
 
   inputs = {
-    # Wir verwenden nixpkgs als Quelle für die Rust-Toolchain und andere Pakete
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable"; # Kann auch einen stabilen Kanal verwenden
-    # Oder einen spezifischen Commit für mehr Stabilität:
-    # nixpkgs.url = "github:NixOS/nixpkgs/abcdef123456...";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs = { self, nixpkgs }:
     let
-      # Liste der unterstützten Systeme (Architekturen)
       supportedSystems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
-
-      # Eine Funktion, die die nixpkgs für ein bestimmtes System importiert
       pkgsFor = system: import nixpkgs { inherit system; };
 
     in
     {
-      # Definiert Pakete für jedes unterstützte System
       packages = builtins.listToAttrs (map (system:
         let pkgs = pkgsFor system; in
         {
-          name = system; # Name des Attributs im packages-Set (z.B. "x86_64-linux")
+          name = system;
           value = {
-            # Das ursprüngliche Rust-Binärpaket (umbenannt mit -bin Suffix)
-            clean-empty-lines-bin = pkgs.rustPlatform.buildRustPackage {
-              pname = "clean-empty-lines-bin"; # Eindeutiger Paketname für die Binärdatei
-              version = "0.1.0";
-              # Quelle ist der Unterordner 'tooling'
-              src = ./tooling;
-              # Cargo.lock Datei, die die genauen Abhängigkeiten sperrt
-              cargoLock.lockFile = ./tooling/Cargo.lock;
-              # Optionale Metadaten
+            # Paket, das das Python-Skript direkt ausführt
+            python-line-cleaner-raw = pkgs.writeShellApplication {
+              name = "python-line-cleaner-raw"; # Name des ausführbaren Skripts
+              runtimeInputs = [ pkgs.python3 ]; # Benötigt Python zur Laufzeit
+
+              # Das Skript wird hier eingebettet. Nix kopiert tooling/empty_lines.py in den Store
+              # und ersetzt ${./tooling/empty_lines.py} mit dem Pfad dorthin.
+              text = ''
+                #!${pkgs.stdenv.shell}
+                exec ${pkgs.python3}/bin/python3 ${./tooling/empty_lines.py} "$@"
+              '';
+
               meta = with pkgs.lib; {
-                description = "Rust-Binärprogramm zum Entfernen leerer Zeilen aus einer Datei.";
+                description = "Python-Skript zum Entfernen leerer Zeilen (direkter Ausführer).";
                 homepage = null; # Oder Link zum Repo
-                license = licenses.mit; # Oder die Lizenz deines Codes
-                platforms = platforms.unix;
+                license = licenses.mit; # Annahme: MIT, anpassen falls nötig
+                platforms = platforms.all; # Python ist plattformübergreifend
               };
             };
 
-            # Wrapper-Skript, das Backup erstellt und dann das Rust-Binärprogramm aufruft
+            # Wrapper-Skript, das Backup erstellt und dann das Python-Skript aufruft
             clean-empty-lines = pkgs.writeShellApplication {
               name = "clean-empty-lines"; # Name des ausführbaren Skripts
-              runtimeInputs = [ 
+              runtimeInputs = [
                 pkgs.coreutils  # Für 'cp' Befehl
-                self.packages.${system}.clean-empty-lines-bin # Das Rust-Binärprogramm
+                self.packages.${system}.python-line-cleaner-raw # Das Python-Skript-Paket
               ];
 
               text = ''
@@ -67,71 +63,66 @@
                     exit 1
                 fi
 
-                # Definiere den Namen der Backup-Datei. Die \'\' sorgen für korrekte Nix String Interpolation.
+                # Definiere den Namen der Backup-Datei.
                 BACKUP_FILE="''${INPUT_FILE}.bak"
 
                 echo "Erstelle Backup von '$INPUT_FILE' nach '$BACKUP_FILE'..."
-                # cp ist durch pkgs.coreutils in runtimeInputs im PATH verfügbar
                 cp -f "$INPUT_FILE" "$BACKUP_FILE"
 
-                echo "Bereinige '$INPUT_FILE' direkt..."
-                # Das Rust-Programm 'clean-empty-lines-bin' (pname) ist durch runtimeInputs im PATH verfügbar
-                clean-empty-lines-bin "$INPUT_FILE" "$INPUT_FILE"
+                echo "Bereinige '$INPUT_FILE' direkt mit Python-Skript..."
+                # Das Python-Skript 'python-line-cleaner-raw' ist durch runtimeInputs im PATH verfügbar
+                # Es wird aufgerufen, um die Datei direkt zu ändern (Input = Output)
+                python-line-cleaner-raw "$INPUT_FILE" "$INPUT_FILE"
 
                 echo "Datei '$INPUT_FILE' wurde bereinigt. Backup unter '$BACKUP_FILE' erstellt."
               '';
+               meta = with pkgs.lib; { # Meta für das Wrapper-Skript
+                description = "Wrapper-Skript zum Entfernen leerer Zeilen mit Backup (verwendet Python).";
+                homepage = null;
+                license = licenses.mit; # Anpassen falls nötig
+                platforms = platforms.unix; # Shell-Skript
+              };
             };
           };
         }) supportedSystems);
 
-      # Setzt das Standardpaket für `nix build` und `nix run . -- <Argumente>`
-      # Dies zeigt nun auf unser Wrapper-Skript
       defaultPackage = builtins.listToAttrs (map (system:
         {
           name = system;
           value = self.packages.${system}.clean-empty-lines; # Das Wrapper-Skript
         }) supportedSystems);
 
-      # Definiert 'apps' für `nix run .#<appname>`
       apps = builtins.listToAttrs (map (system:
         {
           name = system;
           value = {
-            # App, um das Wrapper-Skript (Backup + Bereinigung) auszuführen
-            # Kann mit `nix run .#clean-file -- <Dateiname>` oder `nix run .#<system>.clean-file -- <Dateiname>` ausgeführt werden
             clean-file = {
               type = "app";
               program = "${self.packages.${system}.clean-empty-lines}/bin/clean-empty-lines";
             };
-
-            # App, um nur das Rust-Binärprogramm direkt auszuführen (ohne Backup)
-            # Kann mit `nix run .#raw-clean -- <Eingabe> <Ausgabe>` oder `nix run .#<system>.raw-clean -- <Eingabe> <Ausgabe>` ausgeführt werden
             raw-clean = {
               type = "app";
-              program = "${self.packages.${system}.clean-empty-lines-bin}/bin/clean-empty-lines-bin";
+              program = "${self.packages.${system}.python-line-cleaner-raw}/bin/python-line-cleaner-raw";
             };
           };
         }) supportedSystems);
-      
-      # Erstellt ein Attributset für die Entwicklungs-Shell über alle unterstützten Systeme
+
       devShells = builtins.listToAttrs (map (system:
         let pkgs = pkgsFor system; in
         {
-          name = system; # Name des Attributs im devShells-Set
+          name = system;
           value = {
             default = pkgs.mkShell {
-              # Pakete, die in der Entwicklungs-Shell verfügbar sein sollen
               packages = [
-                pkgs.rustc # Der Rust Compiler
-                pkgs.cargo # Das Rust Build-Tool und Paketmanager
-                # Füge hier weitere Tools wie rustfmt, clippy etc. hinzu, falls benötigt
+                pkgs.python3 # Python-Interpreter
+                # Füge hier weitere Python-Tools wie pip, flake8, black etc. hinzu, falls benötigt:
+                # pkgs.python3Packages.pip
+                # pkgs.python3Packages.flake8
 
                 # Für einfaches Testen in der Dev-Shell:
                 self.packages.${system}.clean-empty-lines # Das Wrapper Skript
-                self.packages.${system}.clean-empty-lines-bin # Das reine Rust Binary
+                self.packages.${system}.python-line-cleaner-raw # Das reine Python Skript
               ];
-              # Optionale Umgebungsvariablen für die Shell
-              # RUST_BACKTRACE = 1;
             };
           };
         }) supportedSystems);
