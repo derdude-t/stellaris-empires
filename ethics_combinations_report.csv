@@ -29,7 +29,7 @@ N,EthicsCombination,EmpireKeys
 0,EGA;MAT;XOB,
 0,EGA;MIL;SPI,
 2,EGA;MIL;XIL,League of Free Nations;Systems of the Free
-0,EGA;MIL;XOB,
+1,EGA;MIL;XOB, Guardians of Yggdrasil
 0,EGA;PAC;SPI,
 3,EGA;PAC;XIL,Etharian Unity;Federal Republic of Almania;Orion's Refuge
 0,EGA;PAC;XOB,
@@ -41,7 +41,7 @@ N,EthicsCombination,EmpireKeys
 4,FAN_AUT;SPI,Bathyrian Archduchy;Realm of the Divine Throne;Realm of the Obsidian Crown;Thralldom of Ea Nasir
 0,FAN_AUT;XIL,
 1,FAN_AUT;XOB,The Thousand Year Empire
-3,FAN_EGA;MAT,Democratic Republic of Almania;Tumbatoran Sovereignty;United Ambrosian Chloroforges
+2,FAN_EGA;MAT,Democratic Republic of Almania;Tumbatoran Sovereignty
 3,FAN_EGA;MIL,Black Army;People's Liberation Army;The Red Army
 1,FAN_EGA;PAC,Okon Commune
 2,FAN_EGA;SPI,Commune of Haumea;Hiran Astral Fellowship
@@ -54,11 +54,11 @@ N,EthicsCombination,EmpireKeys
 1,FAN_MIL;MAT,Nylli Company
 0,FAN_MIL;SPI,
 1,FAN_MIL;XIL,Wagner PMC
-4,FAN_MIL;XOB, Guardians of Yggdrasil;Commonwealth of Man;Gox Legion;Vrinn Clique
+3,FAN_MIL;XOB,Commonwealth of Man;Gox Legion;Vrinn Clique
 0,FAN_PAC;MAT,
 0,FAN_PAC;SPI,
 2,FAN_PAC;XIL,Delphonan Confederacy;Masters of the Starry Canvas
-3,FAN_PAC;XOB,Celestrial Empire;Hermit Kingdom of Juche;Independent Ziiran State
+2,FAN_PAC;XOB,Celestrial Empire;Hermit Kingdom of Juche
 0,FAN_SPI;MIL,
 1,FAN_SPI;PAC,Covenant of Uriy
 1,FAN_SPI;XIL,The Galactic Papacy
