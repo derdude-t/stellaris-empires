@@ -22,6 +22,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -29,6 +30,7 @@
 						key="SPEC_Model-16"
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE2"
@@ -169,6 +171,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -177,6 +180,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN3"
@@ -197,6 +201,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -205,6 +210,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -254,6 +260,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -261,6 +268,7 @@
 							key="HUMAN3_CHR_Sextus"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -268,6 +276,7 @@
 							key="HUMAN3_CHR_Sallustius"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -293,7 +302,7 @@
 	ignore_portrait_duplication=no
 	room="desert8_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_spiritualist"
 	civics=
 	{
@@ -329,6 +338,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -337,6 +347,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT3"
@@ -357,6 +368,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -365,6 +377,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -414,6 +427,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -421,6 +435,7 @@
 							key="PLANT3_CHR_Amaranth"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -428,6 +443,7 @@
 							key="PLANT3_CHR_Linnaeus"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -476,28 +492,18 @@
 		portrait="nec3"
 		species_name=
 		{
-			key="Mugyar"
+			key="Mëgyar"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Mugars"
+			key="Mëgars"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Mugyar"
-						literal=yes
-					}
-				}
-			}
+			key="Mëgyaran"
+			literal=yes
 		}
 		name_list="TOX1"
 		gender=not_set
@@ -517,6 +523,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -525,6 +532,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -532,13 +540,13 @@
 	advisor_voice_type="l_spiritualist"
 	planet_name=
 	{
-		key="Mugyaria"
+		key="Mëgyaria"
 		literal=yes
 	}
 	planet_class="pc_desert"
 	system_name=
 	{
-		key="Mugyaria"
+		key="Mëgyaria"
 		literal=yes
 	}
 	initializer=""
@@ -574,6 +582,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -581,6 +590,7 @@
 							key="NECROID3_CHR_LoqtHecnozochtli"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -588,6 +598,7 @@
 							key="NECROID3_CHR_Quotl"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -642,6 +653,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -650,6 +662,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="ART4"
@@ -670,6 +683,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -678,10 +692,11 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
-	authority="auth_oligarchic"
-	government="gov_purification_committee"
+	authority="auth_dictatorial"
+	government="gov_purity_order"
 	advisor_voice_type="l_spiritualist"
 	planet_name=
 	{
@@ -727,6 +742,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -734,6 +750,7 @@
 							key="ART4_CHR_ArI"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -741,6 +758,7 @@
 							key="ART4_CHR_niVar"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -764,130 +782,6 @@
 		"civic_exalted_priesthood"
 	}
 	origin="origin_ocean_paradise"
-}
-"Seekers of the Psi"=
-{
-	key="Seekers of the Psi"
-	ship_prefix=
-	{
-		key="Psi"
-		literal=yes
-	}
-	species=
-	{
-		class="REP"
-		portrait="rep14"
-		species_name=
-		{
-			key="Gaero"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Gaeros"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Gaeroth"
-			literal=yes
-		}
-		name_list="REP2"
-		gender=not_set
-		trait="trait_clone_soldier_infertile"
-		trait="trait_seasonal_dormancy"
-		trait="trait_shelled"
-		trait="trait_repugnant"
-		trait="trait_sedentary"
-	}
-	name=
-	{
-		key="Seekers of the Psi"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Psian"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_democratic"
-	government="gov_direct_democracy"
-	advisor_voice_type="l_slick_corp"
-	planet_name=
-	{
-		key="Grand Psi"
-		literal=yes
-	}
-	planet_class="pc_desert"
-	system_name=
-	{
-		key="Grand Psi"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="cybernetics_01"
-	city_graphical_culture="synthetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="ornate"
-			file="flag_ornate_9311.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="pattern_01.dds"
-		}
-		colors=
-		{
-			"dark_blue"
-			"hard_steel"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="REP2_CHR_Zacadliss"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="rep14"
-		texture=0
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="spiritualist10_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_parliamentary_system"
-		"civic_dark_consortium"
-	}
-	origin="origin_clone_army"
 }
 " Guardians of Yggdrasil"=
 {
@@ -916,6 +810,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -924,6 +819,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT"
@@ -944,6 +840,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -952,6 +849,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -1001,6 +899,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -1008,6 +907,7 @@
 							key="PLANT_CHR_Trunk_of"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -1015,6 +915,7 @@
 							key="PLANT_CHR_Yggdrasil"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -1051,8 +952,8 @@
 	ignore_portrait_duplication=no
 	room="hive7_room"
 	spawn_enabled=always
+	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_militarist"
-	ethic="ethic_materialist"
 	civics=
 	{
 		"civic_heroic_tales"
@@ -1086,6 +987,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1094,6 +996,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID2"
@@ -1108,7 +1011,7 @@
 	secondary_species=
 	{
 		class="REP"
-		portrait="rep14"
+		portrait="rep12"
 		species_name=
 		{
 			key="Parke"
@@ -1124,6 +1027,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1132,6 +1036,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MOL1"
@@ -1152,6 +1057,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1160,6 +1066,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -1209,6 +1116,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -1216,6 +1124,7 @@
 							key="NECROID2_CHR_Amothetet"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -1223,6 +1132,7 @@
 							key="NECROID2_CHR_enkhi-Tekhomet"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -1294,6 +1204,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1302,6 +1213,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -1309,10 +1221,9 @@
 		trait="trait_lithoid"
 		trait="trait_clone_soldier_infertile"
 		trait="trait_communal"
-		trait="trait_conformists"
-		trait="trait_lithoid_scintillating"
 		trait="trait_repugnant"
-		trait="trait_fleeting_lithoid"
+		trait="trait_strong"
+		trait="trait_industrious"
 	}
 	name=
 	{
@@ -1324,6 +1235,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1332,6 +1244,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -1381,6 +1294,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -1388,6 +1302,7 @@
 							key="LITHOID4_CHR_Krawk"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -1395,6 +1310,7 @@
 							key="LITHOID4_CHR_Restol"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -1452,6 +1368,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1460,6 +1377,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="osiris_ancientgreek"
@@ -1481,6 +1399,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1489,6 +1408,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -1538,6 +1458,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -1545,6 +1466,7 @@
 							key="LITHOID2_CHR_Tem"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -1552,6 +1474,7 @@
 							key="LITHOID2_CHR_Trex"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -1613,6 +1536,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1621,6 +1545,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE1"
@@ -1668,6 +1593,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1676,6 +1602,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_machine_intelligence"
@@ -1777,6 +1704,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -1785,6 +1713,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT3"
@@ -1806,6 +1735,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1813,6 +1743,7 @@
 					key="Ambrosian"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -1862,6 +1793,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -1869,6 +1801,7 @@
 							key="PLANT3_CHR_Iris"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -1876,6 +1809,7 @@
 							key="PLANT3_CHR_Garland"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -1950,6 +1884,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -1958,6 +1893,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -2007,6 +1943,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -2014,6 +1951,7 @@
 							key="MAM2_CHR_Bakrig"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -2021,6 +1959,7 @@
 							key="MAM2_CHR_denBadir"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -2071,6 +2010,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2078,6 +2018,7 @@
 						key="SPEC_Rak-Rak"
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID1"
@@ -2099,6 +2040,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2107,6 +2049,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -2155,6 +2098,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -2162,6 +2106,7 @@
 							key="LITHOID1_CHR_Krrot"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -2169,6 +2114,7 @@
 							key="LITHOID1_CHR_OkkArrTek"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -2218,6 +2164,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2225,6 +2172,7 @@
 						key="SPEC_Tumbator"
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM4"
@@ -2240,6 +2188,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2247,6 +2196,7 @@
 					key="SPEC_Tumbator"
 				}
 			}
+ 
 			{
 				key="1"
 				value=
@@ -2254,6 +2204,7 @@
 					key="Sovereignty"
 				}
 			}
+ 
 		}
 	}
 	adjective=
@@ -2261,6 +2212,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2268,6 +2220,7 @@
 					key="SPEC_Tumbator"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -2314,6 +2267,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -2321,6 +2275,7 @@
 							key="HUM4_CHR_Goli"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -2328,6 +2283,7 @@
 							key="HUM4_CHR_ronAvel"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -2343,7 +2299,7 @@
 	room="throne10_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	civics=
 	{
 		"civic_shared_burden"
@@ -2375,6 +2331,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2382,6 +2339,7 @@
 						key="SPEC_Sutharian"
 					}
 				}
+ 
 			}
 		}
 		name_list="osiris_novelmashup"
@@ -2403,6 +2361,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2411,6 +2370,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -2457,6 +2417,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -2464,6 +2425,7 @@
 							key="OSIRIS_NOVELMASHUP_CN_FIRST_NAMES_FEMALE_MIRANDA"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -2471,6 +2433,7 @@
 							key="OSIRIS_NOVELMASHUP_CN_SECOND_NAMES_BENITEZ"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -2500,7 +2463,8 @@
 	key="Ordensstaat Burgund"
 	ship_prefix=
 	{
-		key="ISS"
+		key="SS"
+		literal=yes
 	}
 	species=
 	{
@@ -2521,6 +2485,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2529,52 +2494,20 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
+		species_bio="The Ordensstaat Burgundy is defined by its pursuit of genetic purity and a bleak outlook. Historical records are fragmented, with a clear timeline emerging only a decade before present day, centered on Herrman Heydrich's unification of their homeworld, now known as Großgermanien."
 		name_list="NECROID4"
 		gender=not_set
-		trait="trait_necrophage"
+		trait="trait_perfected_genes"
 		trait="trait_humanoid_existential_iteroparity"
 		trait="trait_intelligent"
-		trait="trait_traditional"
 		trait="trait_repugnant"
 		trait="trait_deviants"
-	}
-	secondary_species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Human"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Humans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Human"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="HUM2"
-		gender=not_set
-		trait="trait_incubator"
+		trait="trait_acidic_vascularity"
 		trait="trait_inorganic_breath"
-		trait="trait_humanoid_jinxed"
-		trait="trait_repugnant"
+		trait="trait_solitary"
 	}
 	name=
 	{
@@ -2586,6 +2519,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2594,6 +2528,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -2639,7 +2574,7 @@
 		{
 			full_names=
 			{
-				key="Herrman"
+				key="Herrman Heydrich"
 				literal=yes
 			}
 		}
@@ -2653,8 +2588,10 @@
 			key="Ordensführer"
 			literal=yes
 		}
-		trait="leader_trait_spycraft"
-		leader_class="official"
+		trait="leader_trait_legendary_foe_hammer"
+		trait="leader_trait_legendary_military_knowledge"
+		trait="leader_trait_legendary_unfriendly"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
@@ -2667,7 +2604,7 @@
 		"civic_fanatic_purifiers"
 		"civic_natural_design"
 	}
-	origin="origin_necrophage"
+	origin="origin_legendary_leader"
 }
 "Fravallonian Aquifiers"=
 {
@@ -2811,6 +2748,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2818,6 +2756,7 @@
 						key="SPEC_NEX"
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE1"
@@ -2844,6 +2783,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2851,6 +2791,7 @@
 						key="SPEC_Raltek"
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM2"
@@ -2871,6 +2812,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -2879,6 +2821,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_machine_intelligence"
@@ -2974,6 +2917,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -2981,6 +2925,7 @@
 						key="SPEC_Gorothi"
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM4"
@@ -3000,6 +2945,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3007,6 +2953,7 @@
 					key="SPEC_Gorothi"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -3053,6 +3000,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -3060,6 +3008,7 @@
 							key="MAM4_CHR_Terk"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -3067,6 +3016,7 @@
 							key="MAM4_CHR_daughterofMirk"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -3120,6 +3070,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3127,6 +3078,7 @@
 						key="SPEC_Figyar"
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM1"
@@ -3143,6 +3095,7 @@
 		key="AofB"
 		variables=
 		{
+			
 			{
 				key="1"
 				value=
@@ -3150,6 +3103,7 @@
 					key="Mandate"
 				}
 			}
+ 
 			{
 				key="2"
 				value=
@@ -3157,6 +3111,7 @@
 					key="SPEC_Imari_planet"
 				}
 			}
+ 
 		}
 	}
 	adjective=
@@ -3164,6 +3119,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3171,6 +3127,7 @@
 					key="SPEC_Imari_planet"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -3265,6 +3222,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3273,6 +3231,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN2"
@@ -3302,6 +3261,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3310,6 +3270,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN1"
@@ -3328,6 +3289,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3336,6 +3298,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -3402,8 +3365,8 @@
 	ignore_portrait_duplication=no
 	room="outdoor2_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_xenophobe"
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_xenophobe"
 	civics=
 	{
 		"civic_idealistic_foundation"
@@ -3438,6 +3401,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3446,6 +3410,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM4"
@@ -3464,6 +3429,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3472,6 +3438,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -3570,6 +3537,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3577,6 +3545,7 @@
 						key="SPEC_Oxanalytor"
 					}
 				}
+ 
 			}
 		}
 		name_list="TOX2"
@@ -3590,6 +3559,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3597,6 +3567,7 @@
 					key="SPEC_Oxanalytor"
 				}
 			}
+ 
 			{
 				key="1"
 				value=
@@ -3604,6 +3575,7 @@
 					key="%ADJ%"
 					variables=
 					{
+						
 						{
 							key="1"
 							value=
@@ -3611,6 +3583,7 @@
 								key="Galactic"
 								variables=
 								{
+									
 									{
 										key="1"
 										value=
@@ -3618,12 +3591,15 @@
 											key="Consensus"
 										}
 									}
+ 
 								}
 							}
 						}
+ 
 					}
 				}
 			}
+ 
 		}
 	}
 	adjective=
@@ -3631,6 +3607,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3638,6 +3615,7 @@
 					key="SPEC_Oxanalytor"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -3686,6 +3664,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -3693,6 +3672,7 @@
 							key="TOX2_CHA_Maggin"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -3700,6 +3680,7 @@
 							key="TOX2_CHA_Flylord"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -3751,6 +3732,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3759,6 +3741,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT"
@@ -3780,6 +3763,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3788,6 +3772,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -3837,6 +3822,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -3844,6 +3830,7 @@
 							key="PLANT_CHR_Petals_of"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -3851,6 +3838,7 @@
 							key="PLANT_CHR_Indigo"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -3903,6 +3891,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -3910,6 +3899,7 @@
 						key="SPEC_Sidimatus"
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT2"
@@ -3930,6 +3920,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -3938,6 +3929,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -3987,6 +3979,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -3994,6 +3987,7 @@
 							key="PLANT2_CHR_Aquamarine"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -4001,6 +3995,7 @@
 							key="PLANT2_CHR_Bulb"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -4049,6 +4044,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -4056,6 +4052,7 @@
 						key="SPEC_Sorann"
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID4"
@@ -4075,6 +4072,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4082,6 +4080,7 @@
 					key="SPEC_Sorann"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -4180,6 +4179,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -4188,6 +4188,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP2"
@@ -4207,6 +4208,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4215,6 +4217,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -4286,166 +4289,6 @@
 	}
 	origin="origin_default"
 }
-"The Grand Architects"=
-{
-	key="The Grand Architects"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="PLANT"
-		portrait="pla14"
-		species_name=
-		{
-			key="Lamium"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Lamium"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Lamium"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="PLANT"
-		gender=not_set
-		trait="trait_void_dweller_1"
-		trait="trait_incubator"
-		trait="trait_unruly"
-		trait="trait_weak"
-		trait="trait_communal"
-		trait="trait_thrifty"
-	}
-	name=
-	{
-		key="The Grand Architects"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Grand Architects"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_oligarchic"
-	government="gov_executive_committee"
-	advisor_voice_type="l_materialist"
-	planet_name=
-	{
-		key="Architect's Dream"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Architect's Dream"
-		literal=yes
-	}
-	initializer="void_dweller_system"
-	graphical_culture="plantoid_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="legion"
-			file="flag_mp_beta_9103.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"burgundy"
-			"intense_burgundy"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="PLANT_CHR_Stalk_of"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="PLANT_CHR_Silver"
-						}
-					}
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="pla14"
-		texture=2
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Grand Architect"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Grand Architect"
-			literal=yes
-		}
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="industrial9_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_functional_architecture"
-		"civic_crafters"
-	}
-	origin="origin_void_dwellers"
-}
 "Rhalata Shera"=
 {
 	key="Rhalata Shera"
@@ -4473,6 +4316,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -4481,6 +4325,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID1"
@@ -4499,6 +4344,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4506,6 +4352,7 @@
 					key="Rhalata"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -4555,6 +4402,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -4562,6 +4410,7 @@
 							key="NECROID1_CHR_Lougher"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -4569,6 +4418,7 @@
 							key="NECROID1_CHR_Anfel"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -4620,6 +4470,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -4628,6 +4479,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -4650,6 +4502,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4657,6 +4510,7 @@
 					key="Zrolian"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -4706,6 +4560,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -4713,6 +4568,7 @@
 							key="LITHOID4_CHR_Restok"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -4720,6 +4576,7 @@
 							key="LITHOID4_CHR_Unron"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -4788,6 +4645,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4796,6 +4654,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_machine_intelligence"
@@ -4896,6 +4755,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -4904,6 +4764,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -4924,6 +4785,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -4932,6 +4794,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -5004,8 +4867,8 @@
 	ignore_portrait_duplication=no
 	room="outdoor1_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_pacifist"
 	civics=
 	{
 		"civic_agrarian_idyll"
@@ -5040,6 +4903,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -5048,6 +4912,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species. Despite their reclusive nature, the Dwaph exhibit a complex social structure and excel in crafting and engineering. As they advance technologically, they aim to restore Dwaphiona to its former state and seek to explore the cosmos, uncovering potential allies or adversaries among other civilizations."
@@ -5070,6 +4935,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5077,6 +4943,7 @@
 					key="Dwaph"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -5126,6 +4993,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -5133,6 +5001,7 @@
 							key="TOX3_CHA_Eerin"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -5140,6 +5009,7 @@
 							key="TOX3_CHA_Alantonen"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -5201,6 +5071,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -5209,6 +5080,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MOL3"
@@ -5228,6 +5100,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5236,6 +5109,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -5284,6 +5158,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -5291,6 +5166,7 @@
 							key="MOL3_CHR_Slamul"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -5298,6 +5174,7 @@
 							key="MOL3_CHR_Yulili"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -5350,6 +5227,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -5358,6 +5236,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -5380,6 +5259,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5388,6 +5268,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -5434,6 +5315,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -5441,6 +5323,7 @@
 							key="LITHOID4_CHR_Restok"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -5448,6 +5331,7 @@
 							key="LITHOID4_CHR_Dock-Naest"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -5503,7 +5387,8 @@
 		trait="trait_preplanned_growth"
 		trait="trait_repugnant"
 		trait="trait_juiced_power"
-		trait="trait_spliced_adaptability"
+		trait="trait_enduring"
+		trait="trait_auto_mod_overtuned"
 	}
 	name=
 	{
@@ -5515,6 +5400,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5523,6 +5409,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -5574,6 +5461,7 @@
 		}
 		portrait="art3"
 		texture=4
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		ruler_title=
@@ -5593,7 +5481,7 @@
 	civics=
 	{
 		"civic_fanatic_purifiers"
-		"civic_scavengers"
+		"civic_warrior_culture"
 	}
 	origin="origin_overtuned"
 }
@@ -5642,6 +5530,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5650,6 +5539,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -5752,6 +5642,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -5760,6 +5651,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -5778,6 +5670,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5786,6 +5679,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -5891,6 +5785,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -5899,11 +5794,11 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID4"
 		gender=not_set
-		trait="trait_latent_psionic"
 		trait="trait_natural_sociologists"
 		trait="trait_slow_learners"
 		trait="trait_traditional"
@@ -5919,6 +5814,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -5927,6 +5823,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -6015,7 +5912,7 @@
 		"civic_death_cult"
 		"civic_warrior_culture"
 	}
-	origin="origin_shroudwalker_apprentice"
+	origin="origin_cybernetic_creed"
 }
 "Souki Nation"=
 {
@@ -6062,6 +5959,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6070,6 +5968,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -6118,6 +6017,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -6125,6 +6025,7 @@
 							key="TOX3_CHA_Marjitta"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -6132,6 +6033,7 @@
 							key="TOX3_CHA_Vennara"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -6184,6 +6086,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -6192,6 +6095,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP1"
@@ -6211,6 +6115,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6219,6 +6124,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -6334,6 +6240,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6342,6 +6249,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -6391,6 +6299,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -6398,6 +6307,7 @@
 							key="TOX2_CHA_Pollutss"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -6405,6 +6315,7 @@
 							key="TOX2_CHA_Smokelung"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -6467,6 +6378,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -6475,6 +6387,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AQUATIC4"
@@ -6495,6 +6408,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6503,6 +6417,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -6552,6 +6467,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -6559,6 +6475,7 @@
 							key="AQUATIC4_CHR_Alice"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -6566,6 +6483,7 @@
 							key="AQUATIC4_CHR_Allenby"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -6637,6 +6555,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -6645,6 +6564,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -6667,6 +6587,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6675,6 +6596,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -6724,6 +6646,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -6731,6 +6654,7 @@
 							key="LITHOID4_CHR_Petrus"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -6738,6 +6662,7 @@
 							key="LITHOID4_CHR_Unron"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -6795,6 +6720,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -6803,6 +6729,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID3"
@@ -6826,6 +6753,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6834,6 +6762,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -6882,6 +6811,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -6889,6 +6819,7 @@
 							key="LITHOID3_CHR_Luut"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -6896,6 +6827,7 @@
 							key="LITHOID3_CHR_Monlonn"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -6951,6 +6883,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -6959,6 +6892,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM3"
@@ -6978,6 +6912,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -6986,6 +6921,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -7035,6 +6971,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -7042,6 +6979,7 @@
 							key="HUM3_CHR_Daka"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -7049,6 +6987,7 @@
 							key="HUM3_CHR_na-Folken"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -7102,6 +7041,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7110,6 +7050,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP2"
@@ -7131,6 +7072,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7139,6 +7081,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -7262,6 +7205,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7270,10 +7214,11 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_moral_democracy"
 	advisor_voice_type="l_egalitarian"
 	planet_name=
 	{
@@ -7319,6 +7264,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -7326,6 +7272,7 @@
 							key="REP4_CHR_Schmuppi"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -7333,6 +7280,7 @@
 							key="REP4_CHR_Bruiip"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -7350,7 +7298,7 @@
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
 	civics=
 	{
 		"civic_meritocracy"
@@ -7385,6 +7333,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7393,6 +7342,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM2"
@@ -7412,6 +7362,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7420,6 +7371,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -7468,6 +7420,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -7475,6 +7428,7 @@
 							key="MAM2_CHR_Valdrig"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -7482,6 +7436,7 @@
 							key="MAM2_CHR_denIridar"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -7543,6 +7498,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7551,6 +7507,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN3"
@@ -7570,6 +7527,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7578,6 +7536,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -7685,6 +7644,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7693,6 +7653,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="TOX3"
@@ -7714,6 +7675,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7722,6 +7684,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -7770,6 +7733,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -7777,6 +7741,7 @@
 							key="TOX3_CHA_Tirmo"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -7784,6 +7749,7 @@
 							key="TOX3_CHA_Solonnen"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -7845,6 +7811,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7853,6 +7820,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -7873,6 +7841,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -7881,6 +7850,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -7978,6 +7948,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -7986,6 +7957,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE1"
@@ -8007,6 +7979,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8014,6 +7987,7 @@
 					key="REX1"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_machine_intelligence"
@@ -8128,6 +8102,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8136,6 +8111,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -8245,6 +8221,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8253,6 +8230,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN3"
@@ -8284,6 +8262,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8292,6 +8271,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MOL2"
@@ -8312,6 +8292,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8320,6 +8301,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -8368,6 +8350,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -8375,6 +8358,7 @@
 							key="HUMAN3_CHR_Marcus"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -8382,6 +8366,7 @@
 							key="HUMAN3_CHR_Maximius"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -8452,6 +8437,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8460,6 +8446,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP4"
@@ -8481,6 +8468,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8489,6 +8477,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -8538,6 +8527,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -8545,6 +8535,7 @@
 							key="REP4_CHR_Aski"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -8552,6 +8543,7 @@
 							key="REP4_CHR_Zaha-Ni"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -8615,6 +8607,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8622,6 +8615,7 @@
 						key="SPEC_Alari"
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM1"
@@ -8641,6 +8635,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8649,6 +8644,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -8757,6 +8753,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8765,6 +8762,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM1"
@@ -8785,6 +8783,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8793,6 +8792,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -8902,6 +8902,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -8910,6 +8911,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM3"
@@ -8930,6 +8932,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -8938,6 +8941,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -8986,6 +8990,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -8993,6 +8998,7 @@
 							key="HUM3_CHR_Nish"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -9000,6 +9006,7 @@
 							key="HUM3_CHR_na-Kiter"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -9035,157 +9042,6 @@
 	}
 	origin="origin_clone_army"
 }
-"Federation of Humankind"=
-{
-	key="Federation of Humankind"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Human"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Humans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Human"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="HUMAN1"
-		gender=not_set
-		trait="trait_incubator"
-		trait="trait_thrifty"
-		trait="trait_unruly"
-		trait="trait_quarrelsome"
-		trait="trait_natural_engineers"
-	}
-	name=
-	{
-		key="Federation of Humankind"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Human"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_democratic"
-	government="gov_military_commissariat"
-	planet_name=
-	{
-		key="Terra Nova"
-		literal=yes
-	}
-	planet_class="pc_savannah"
-	system_name=
-	{
-		key="Betha Centauri"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_united_systems_republic.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_31.dds"
-		}
-		colors=
-		{
-			"shadow_blue"
-			"red"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="HUMAN1_CHR_Bambanani"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="HUMAN1_CHR_Bankole"
-						}
-					}
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="human_male_05"
-		texture=2
-		evolution_mask=0
-		attachment=47
-		clothes=1
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="cityscape13_room"
-	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_merchant_guilds"
-		"civic_distinguished_admiralty"
-	}
-	origin="origin_default"
-}
 "Sacred Circuitry Order"=
 {
 	key="Sacred Circuitry Order"
@@ -9213,6 +9069,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -9221,6 +9078,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE2"
@@ -9241,6 +9099,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9249,6 +9108,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -9356,6 +9216,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -9364,6 +9225,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT2"
@@ -9384,6 +9246,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9392,6 +9255,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -9440,6 +9304,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -9447,6 +9312,7 @@
 							key="PLANT2_CHR_White"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -9454,6 +9320,7 @@
 							key="PLANT2_CHR_Bulb"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -9479,8 +9346,8 @@
 	ignore_portrait_duplication=no
 	room="spiritualist4_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_xenophile"
-	ethic="ethic_pacifist"
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
 	civics=
 	{
 		"civic_crafters"
@@ -9515,6 +9382,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -9523,6 +9391,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="FUN4"
@@ -9544,6 +9413,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9552,6 +9422,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -9677,6 +9548,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9685,6 +9557,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -9780,6 +9653,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -9788,6 +9662,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM1"
@@ -9809,6 +9684,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9817,6 +9693,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -9926,6 +9803,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -9934,6 +9812,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP1"
@@ -9954,6 +9833,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -9961,6 +9841,7 @@
 					key="Rakata"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -10060,6 +9941,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10068,6 +9950,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="TOX1"
@@ -10088,6 +9971,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10096,6 +9980,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -10145,6 +10030,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -10152,6 +10038,7 @@
 							key="TOX1_CHA_Quartzel"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -10159,6 +10046,7 @@
 							key="TOX1_CHA_Prastly"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -10212,6 +10100,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10220,6 +10109,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI4"
@@ -10239,6 +10129,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10247,6 +10138,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -10296,6 +10188,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -10303,6 +10196,7 @@
 							key="AVI4_CHR_Atrata"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -10310,6 +10204,7 @@
 							key="AVI4_CHR_Sarimanok"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -10360,6 +10255,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10368,6 +10264,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="REP3"
@@ -10388,6 +10285,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10396,6 +10294,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -10492,6 +10391,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10500,6 +10400,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT3"
@@ -10521,6 +10422,7 @@
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10528,6 +10430,7 @@
 					key="Psion"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -10576,6 +10479,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -10583,6 +10487,7 @@
 							key="PLANT3_CHR_Basil"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -10590,6 +10495,7 @@
 							key="PLANT3_CHR_Maple"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -10646,6 +10552,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10654,6 +10561,7 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM4"
@@ -10674,6 +10582,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10682,6 +10591,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -10730,6 +10640,7 @@
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -10737,6 +10648,7 @@
 							key="HUM4_CHR_Kham"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -10744,6 +10656,7 @@
 							key="HUM4_CHR_ronAvel"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -10801,6 +10714,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10808,6 +10722,7 @@
 						key="SPEC_Yeon"
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM1"
@@ -10828,6 +10743,7 @@
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10836,6 +10752,7 @@
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -10883,6 +10800,7 @@
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -10890,6 +10808,7 @@
 							key="MAM1_CHR_Bori"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -10897,6 +10816,7 @@
 							key="MAM1_CHR_JDir"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -10948,6 +10868,7 @@
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -10956,9 +10877,10 @@
 						literal=yes
 					}
 				}
+ 
 			}
 		}
-		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
+		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
 Despite their reclusive nature, the Dwaph exhibit a complex social structure and excel in crafting and engineering. As they advance technologically, they aim to restore Dwaphiona to its former state and seek to explore the cosmos, uncovering potential allies or adversaries among other civilizations."
 		name_list="TOX3"
 		gender=not_set
@@ -10979,6 +10901,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -10987,6 +10910,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -11036,6 +10960,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -11043,6 +10968,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX3_CHA_Roopeka"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -11050,6 +10976,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX3_CHA_Solonnen"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -11073,156 +11000,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		"civic_dimensional_worship"
 	}
 	origin="origin_subterranean"
-}
-"Senate of Sovestia"=
-{
-	key="Senate of Sovestia"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="ART"
-		portrait="art9"
-		species_name=
-		{
-			key="Beamite"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Beamites"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Beamite"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="HIVE1"
-		gender=indeterminable
-		trait="trait_traditional"
-		trait="trait_conformists"
-		trait="trait_wasteful"
-		trait="trait_nonadaptive"
-		trait="trait_docile"
-	}
-	name=
-	{
-		key="Senate of Sovestia"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Bematinan"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_oligarchic"
-	government="gov_executive_committee"
-	planet_name=
-	{
-		key="Codexia"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Statulux"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="blocky"
-			file="flag_blocky_9313.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_21_92.dds"
-		}
-		colors=
-		{
-			"dark_brown"
-			"dark_orange"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="HIVE1_CHR_Motile_Constituent"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="HIVE1_CHR_Completer"
-						}
-					}
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="art9"
-		texture=0
-		evolution_mask=0
-		attachment=0
-		clothes=4
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="cityscape7_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_xenophile"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_efficient_bureaucracy"
-		"civic_byzantine_bureaucracy"
-	}
-	origin="origin_default"
 }
 "Dark Legion"=
 {
@@ -11251,6 +11028,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11259,6 +11037,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID4"
@@ -11281,6 +11060,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -11289,6 +11069,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -11406,6 +11187,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11414,6 +11196,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AQUATIC1"
@@ -11433,6 +11216,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -11441,6 +11225,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -11489,6 +11274,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -11496,6 +11282,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="OSIRIS_GRANDUS_CN_FIRST_NAMES_FEMALE_GENEVIEVE"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -11503,6 +11290,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="OSIRIS_GRANDUS_CN_SECOND_NAMES_MORRISON"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -11554,6 +11342,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11562,6 +11351,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID4"
@@ -11582,6 +11372,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -11590,6 +11381,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -11696,6 +11488,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11704,6 +11497,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AQUATIC3"
@@ -11733,6 +11527,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11741,6 +11536,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -11761,6 +11557,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -11769,6 +11566,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -11875,6 +11673,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -11883,6 +11682,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT2"
@@ -11903,6 +11703,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -11911,6 +11712,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -11959,6 +11761,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -11966,6 +11769,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="PLANT2_CHR_Red"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -11973,6 +11777,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="PLANT2_CHR_Shoot"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -12045,6 +11850,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12052,6 +11858,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="Grimm"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -12098,6 +11905,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -12105,6 +11913,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Cassram"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -12112,6 +11921,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Yukonna"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -12162,6 +11972,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -12170,6 +11981,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM1"
@@ -12190,6 +12002,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12197,6 +12010,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="Angel"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -12305,6 +12119,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -12313,6 +12128,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="FUN2"
@@ -12334,6 +12150,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12342,6 +12159,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -12468,6 +12286,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12476,6 +12295,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -12524,6 +12344,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -12531,6 +12352,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI3_CHR_Claws_of"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -12538,6 +12360,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI3_CHR_Yellow"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -12598,6 +12421,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -12605,6 +12429,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="SPEC_Ziiran"
 					}
 				}
+ 
 			}
 		}
 		name_list="REP3"
@@ -12625,6 +12450,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12632,6 +12458,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Ziiran"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -12736,6 +12563,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -12744,6 +12572,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AQUATIC3"
@@ -12764,6 +12593,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12772,6 +12602,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -12879,6 +12710,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -12887,6 +12719,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -12906,6 +12739,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -12914,6 +12748,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -13021,6 +12856,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -13029,6 +12865,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI4"
@@ -13048,6 +12885,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13056,6 +12894,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -13103,6 +12942,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -13110,6 +12950,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Akrok"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -13117,6 +12958,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Curassow"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -13175,6 +13017,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -13182,6 +13025,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="SPEC_Uriy"
 					}
 				}
+ 
 			}
 		}
 		name_list="FUN3"
@@ -13202,6 +13046,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13209,6 +13054,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Uriy"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -13255,6 +13101,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -13262,6 +13109,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="FUN3_CHR_Dulava"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -13269,6 +13117,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="FUN3_CHR_uvi-Ajbvav"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -13338,6 +13187,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13346,6 +13196,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -13482,6 +13333,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13490,6 +13342,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -13538,6 +13391,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -13545,6 +13399,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX3_CHA_Kaujo"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -13552,6 +13407,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX3_CHA_Nurmainen"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -13611,6 +13467,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -13618,6 +13475,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="SPEC_Vrinn"
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM2"
@@ -13636,6 +13494,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13643,6 +13502,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Vrinn"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -13759,6 +13619,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13766,6 +13627,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Gox"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -13860,6 +13722,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -13867,6 +13730,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="SPEC_Hiran"
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI4"
@@ -13882,6 +13746,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13889,6 +13754,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Hiran"
 				}
 			}
+ 
 			{
 				key="1"
 				value=
@@ -13896,6 +13762,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="Astral_Fellowship"
 				}
 			}
+ 
 		}
 	}
 	adjective=
@@ -13903,6 +13770,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -13910,6 +13778,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Hiran"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -13958,6 +13827,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -13965,6 +13835,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Akkan"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -13972,6 +13843,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="AVI4_CHR_Ika"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -14023,6 +13895,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14031,6 +13904,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="FUN4"
@@ -14050,6 +13924,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14058,6 +13933,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -14160,6 +14036,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14168,6 +14045,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="TOX4"
@@ -14188,6 +14066,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14195,6 +14074,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="Relurian"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -14243,6 +14123,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -14250,6 +14131,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX4_CHA_Unkind"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -14257,6 +14139,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="TOX4_CHA_Forever"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -14318,6 +14201,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14326,6 +14210,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID3"
@@ -14347,6 +14232,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14355,6 +14241,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -14403,6 +14290,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -14410,6 +14298,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="NECROID3_CHR_Caoc"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -14417,6 +14306,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="NECROID3_CHR_zuiAuizuma"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -14467,6 +14357,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14474,6 +14365,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="SPEC_Tyrathian"
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM3"
@@ -14494,6 +14386,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14501,6 +14394,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="SPEC_Tyrathian"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -14549,6 +14443,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -14556,6 +14451,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="HUM3_CHR_Pela"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -14563,6 +14459,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="HUM3_CHR_na-Tilpen"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -14613,6 +14510,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14621,6 +14519,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MOL3"
@@ -14641,6 +14540,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14649,6 +14549,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -14765,6 +14666,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -14773,6 +14675,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="NECROID3"
@@ -14793,6 +14696,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14801,6 +14705,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -14848,6 +14753,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -14855,6 +14761,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="NECROID3_CHR_Caoc"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -14862,6 +14769,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="NECROID3_CHR_zuiHeqtli"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -14941,6 +14849,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -14949,6 +14858,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -14997,6 +14907,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -15004,6 +14915,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="ART3_CHR_Cilxin"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -15011,6 +14923,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="ART3_CHR_Upiverta"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -15066,6 +14979,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -15074,6 +14988,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HIVE2"
@@ -15095,6 +15010,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15103,6 +15019,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -15197,6 +15114,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -15205,6 +15123,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="FUN1"
@@ -15225,6 +15144,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15233,6 +15153,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -15439,6 +15360,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -15447,6 +15369,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM4"
@@ -15468,6 +15391,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15476,6 +15400,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -15574,6 +15499,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -15582,6 +15508,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -15603,6 +15530,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15611,6 +15539,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -15734,6 +15663,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15742,6 +15672,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -15790,6 +15721,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -15797,6 +15729,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="MAM2_CHR_Jargim"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -15804,6 +15737,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="MAM2_CHR_denRothorag"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -15867,6 +15801,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -15875,6 +15810,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="PLANT4"
@@ -15896,6 +15832,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -15904,6 +15841,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -16028,6 +15966,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16036,6 +15975,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -16085,6 +16025,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -16092,6 +16033,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="CYBERPUNK1_CHR_Drift"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -16099,6 +16041,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 							key="CYBERPUNK1_CHR_Quin"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -16179,6 +16122,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16187,6 +16131,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -16295,6 +16240,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -16303,9 +16249,10 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						literal=yes
 					}
 				}
+ 
 			}
 		}
-		species_bio="The Amanitans were a fungoid species whose materialist, ruthlessly meritocratic civilization on their homeworld was devastated by their own hubris - constructing a massive particle accelerator that triggered an apocalyptic \"Mycelial Shockwave.\" Across millennia of regression after this cataclysm, the most cunning and industrious survivors dominated through backbreaking labor, slowly rebuilding industrial productivity.
+		species_bio="The Amanitans were a fungoid species whose materialist, ruthlessly meritocratic civilization on their homeworld was devastated by their own hubris - constructing a massive particle accelerator that triggered an apocalyptic \"Mycelial Shockwave.\" Across millennia of regression after this cataclysm, the most cunning and industrious survivors dominated through backbreaking labor, slowly rebuilding industrial productivity.
 Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined with their obsession for merit-based success drives their egalitarian democracy's determination to re-ascend as galactic architects."
 		name_list="FUN2"
 		gender=indeterminable
@@ -16326,6 +16273,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16334,6 +16282,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -16411,8 +16360,8 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	ignore_portrait_duplication=no
 	room="apocalyptic4_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
 	civics=
 	{
 		"civic_meritocracy"
@@ -16447,6 +16396,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -16455,6 +16405,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AQUATIC1"
@@ -16475,6 +16426,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16483,6 +16435,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -16531,6 +16484,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -16538,6 +16492,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AQUATIC1_CHR_Saanda"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -16545,6 +16500,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AQUATIC1_CHR_Konkarr"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -16597,6 +16553,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -16605,6 +16562,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN1"
@@ -16628,6 +16586,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16636,6 +16595,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -16745,6 +16705,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -16753,6 +16714,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="ART2"
@@ -16774,6 +16736,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16782,6 +16745,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -16899,6 +16863,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -16907,6 +16872,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MAM2"
@@ -16927,6 +16893,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -16934,6 +16901,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					key="Wagnerite"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -16983,6 +16951,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -16990,6 +16959,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="MAM2_CHR_Jargim"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -16997,6 +16967,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="MAM2_CHR_denAramik"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -17048,6 +17019,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17056,6 +17028,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM2"
@@ -17085,6 +17058,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17093,6 +17067,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM3"
@@ -17113,6 +17088,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -17121,6 +17097,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -17170,6 +17147,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -17177,6 +17155,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM2_CHR_Fadra"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -17184,6 +17163,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM2_CHR_Pok"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -17255,6 +17235,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -17263,6 +17244,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -17371,6 +17353,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17379,6 +17362,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="TOX1"
@@ -17400,6 +17384,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -17408,6 +17393,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -17499,168 +17485,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	origin="origin_post_apocalyptic"
 }
-"Alea Protocols"=
-{
-	key="Alea Protocols"
-	ship_prefix=
-	{
-		key="APS"
-		literal=yes
-	}
-	species=
-	{
-		class="MACHINE"
-		portrait="cyb_machine"
-		species_name=
-		{
-			key="Alea"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Aleae"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Alea"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="MACHINE_AGE2"
-		gender=indeterminable
-		trait="trait_machine_unit"
-		trait="trait_auto_mod_robotic"
-		trait="trait_robot_history_chatbot"
-		trait="trait_robot_artificial_engineers"
-		trait="trait_robot_high_bandwidth"
-		trait="trait_robot_mass_produced"
-		trait="trait_robot_luxurious"
-	}
-	name=
-	{
-		key="Alea Protocols"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Alean"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_democratic"
-	government="gov_communal_parity"
-	planet_name=
-	{
-		key="Alea"
-		literal=yes
-	}
-	planet_class="pc_desert"
-	system_name=
-	{
-		key="Alea"
-		literal=yes
-	}
-	initializer="custom_starting_init_01"
-	graphical_culture="synthetics_01"
-	city_graphical_culture="synthetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_egalitarian4.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Hive3.dds"
-		}
-		colors=
-		{
-			"intense_red"
-			"bright_yellow"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="INDIMACHINES1_CHR_Silic"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="INDIMACHINES1_CHR_DiGibi"
-						}
-					}
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="cyb_machine"
-		texture=0
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="First Cube"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="First Cube"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="crystalline_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_shared_burden"
-		"civic_guided_sapience"
-	}
-	origin="origin_arc_welders"
-}
 "Imperial Core of Vermillion"=
 {
 	key="Imperial Core of Vermillion"
@@ -17688,6 +17512,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17696,6 +17521,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="The Imperal Family existed since time began on the Ocean Planet of Vermillion. They have always ruled over their archileago, sometimes with an iron fist, sometimes with a big heart. But even when it came to struggle, civil war, usurpers or revolutionaries, they have endured. Now ready to embark onto the galactic stage, they hope to expand as they always have; through diplomacy, vassalage and willing partners."
@@ -17717,6 +17543,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -17725,6 +17552,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -17774,6 +17602,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -17781,6 +17610,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="MAM3_CHR_Seifeth"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -17788,6 +17618,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="MAM3_CHR_curPadarn"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -17840,6 +17671,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17848,6 +17680,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="The Symbiots of Terra Palia were once the weakest of all the conscious species, often held as slaves or as pleasure devices. After countless centuries of oppression, they found partners within the non-sentient wildlife of Terra Palia, making an eternal pact by forging an alliance that would make whatever species allied with them the rulers of the planet. Now that they exterminated every other being, they extent the pact over the galaxy and now seek the help of the voidborne creatures."
@@ -17869,6 +17702,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -17877,6 +17711,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -17985,6 +17820,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -17993,6 +17829,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="Many hives once existed on the planet formerly known as Hal. All strived to unite the planet under them, through tireless work, wars so brutal they frighten the younglings for countless generations, and most in all, unity. Until the queen came, and with her, the ideals of individuality, creativity and excellence. Once these ideas were established the the Hal-ka hive, it spread throughout the planets, exterminating the egalitarian contenders. Now moving into the final frontier, the queen seeks to test her cunning against those that threatend the hive, and her princes."
@@ -18015,6 +17852,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18023,6 +17861,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_hive_mind"
@@ -18129,6 +17968,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18137,6 +17977,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="Born from the Jungles of Haa'ra, the Hisi soon realized that despite the faunat's hardships, they were the ultimate being. Believing in their own superiority, the many village confederations soon united under military rule. However, their end goal was not to create the greatest Empire or wealthiest Elite; they wanted to forge planets worthy of the Hisi, the most perfect of all the known species."
@@ -18160,6 +18001,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJECTIVE%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18167,6 +18009,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					key="Hisi"
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -18215,6 +18058,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -18222,6 +18066,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="PLANT4_CHR_Monval"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -18229,6 +18074,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="PLANT4_CHR_kaPruina"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -18291,6 +18137,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18299,6 +18146,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="Once the greatest pleasure planet in the galaxy, Angel's beauty is now nothing more than a giant ruin, everything thats left of a once great galactic empire. After ten thousand years of noble lines fighting for control, an interloper arrived, claiming to have found spacecraft on the planet long ago and exploring the galaxy with it. With his charm, he quickly established himself as the head of the Rarex Progenitors, the reborn Empire, which will now rise from the ashes and restablish it's greatness."
@@ -18319,6 +18167,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18327,6 +18176,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -18444,6 +18294,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18452,6 +18303,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="On Ea Nasir, the only thing greater than the endless planes or arid desert is the suffering of its people. But with the discovery of the hyperlane network and the dominance of the slaver guilds its unknown if their suffering will ever end or if the galaxy will share their fate."
@@ -18473,6 +18325,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18481,6 +18334,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -18529,6 +18383,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -18536,6 +18391,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AVI3_CHR_Wings_of"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -18543,6 +18399,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AVI3_CHR_Gold"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -18595,6 +18452,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18603,6 +18461,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="Forged from the fires of the revolution, the young Arken sought a replacement for the labor that brought about anarchism and social divancy. The bots were thus created, and with them a new era of peace and prosperity swept across the young planetary empire. The rule of the central commitee was replaced by a council of the brightest minds, seeking to expand their knowledge by expanding into the galaxy. But fearing the ancient texts about the greed and the occupation, they limited themselves to protect what they got, not seek what they dont have."
@@ -18624,6 +18483,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18632,6 +18492,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -18680,6 +18541,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -18687,6 +18549,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM3_CHR_Tona"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -18694,6 +18557,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM3_CHR_na-Ilben"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -18757,6 +18621,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18765,6 +18630,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="People thought that the bomb would hold the peace. But it would only bring ruin to a planet once so great its hyms and songs spread without warpdrive throughout the galaxy. But the peace didn't last, and the finality of the bomb failed. Now left with a planet in ruin and countless of those who life in death, a new dawn rises over the remaining population. Calling themselves the Fallacy as a reminder of their failures, they seek to pacify the dead and live in true peace. Away from those who are unaware of their own mistakes."
@@ -18786,6 +18652,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18794,6 +18661,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -18842,6 +18710,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -18849,6 +18718,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="TOX1_CHA_Kryptal"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -18856,6 +18726,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="TOX1_CHA_Levisir"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -18919,6 +18790,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -18927,6 +18799,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUM3"
@@ -18948,6 +18821,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -18956,6 +18830,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -19004,6 +18879,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -19011,6 +18887,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM3_CHR_Sash"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -19018,6 +18895,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUM3_CHR_na-Febor"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -19069,6 +18947,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -19077,6 +18956,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="HUMAN1"
@@ -19100,6 +18980,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -19108,6 +18989,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -19156,6 +19038,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -19163,6 +19046,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUMAN1_CHR_Logan"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -19170,6 +19054,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="HUMAN1_CHR_Hoffmeyer"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -19206,144 +19091,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	origin="origin_subterranean"
 }
-"Allwielder"=
-{
-	key="Allwielder"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="MACHINE"
-		portrait="nec_machine"
-		species_name=
-		{
-			key="SPEC_Korinth"
-		}
-		species_plural=
-		{
-			key="SPEC_Korinth_pl"
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="SPEC_Korinth"
-					}
-				}
-			}
-		}
-		name_list="HUM1"
-		gender=not_set
-		trait="trait_machine_unit"
-	}
-	name=
-	{
-		key="Allwielder"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Allwiederan"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_machine_intelligence"
-	government="gov_machine_industrial"
-	planet_name=
-	{
-		key="SPEC_Cevelli_planet"
-	}
-	planet_class="pc_arid"
-	system_name=
-	{
-		key="SPEC_Cevelli_system"
-	}
-	initializer="custom_starting_init_01"
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="zoological"
-			file="flag_zoological_9013.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Linesi.dds"
-		}
-		colors=
-		{
-			"light_pink"
-			"light_grey"
-			"teal"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_1%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="HUM1_CHR_Jesslur"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="HUM1_CHR_dVhakk"
-						}
-					}
-				}
-			}
-		}
-		portrait="nec_machine"
-		texture=3
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_spycraft"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_machine_astromining_drones"
-		"civic_machine_replication"
-	}
-	origin="origin_arc_welders"
-}
 "Seventh Army"=
 {
 	key="Seventh Army"
@@ -19371,6 +19118,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -19379,6 +19127,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="LITHOID4"
@@ -19400,6 +19149,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -19408,6 +19158,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -19456,6 +19207,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -19463,6 +19215,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="LITHOID4_CHR_Hasslen"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -19470,6 +19223,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="LITHOID4_CHR_sharCrambe"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -19551,6 +19305,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -19559,6 +19314,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_machine_intelligence"
@@ -19633,135 +19389,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	origin="origin_arc_welders"
 }
-"Swarm of Itnott"=
-{
-	key="Swarm of Itnott"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="ART"
-		portrait="art18"
-		species_name=
-		{
-			key="Tiar"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Tiari"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Tiar"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="HIVE1"
-		gender=not_set
-		trait="trait_hive_mind"
-		trait="trait_wilderness"
-	}
-	name=
-	{
-		key="Swarm of Itnott"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Itnott'"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_hive_mind"
-	government="gov_blood_forest"
-	advisor_voice_type="l_wild_vir"
-	planet_name=
-	{
-		key="Itnott"
-		literal=yes
-	}
-	planet_class="pc_ocean"
-	system_name=
-	{
-		key="Itnott"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="biogenesis_02"
-	city_graphical_culture="wilderness_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="zoological"
-			file="flag_zoological_1.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Hive1i.dds"
-		}
-		colors=
-		{
-			"brown"
-			"teal"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="Grand Itnott"
-				literal=yes
-			}
-		}
-		portrait="art18"
-		texture=0
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="wilderness_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_hive_subspace_ephapse"
-		"civic_hive_devouring_swarm"
-	}
-	origin="origin_wilderness"
-}
 "Enora's Hope"=
 {
 	key="Enora's Hope"
@@ -19789,6 +19416,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -19797,6 +19425,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="AVI2"
@@ -19817,6 +19446,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -19825,6 +19455,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -19895,157 +19526,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	origin="origin_synthetic_fertility"
 }
-"The Spartakus Revolution"=
-{
-	key="The Spartakus Revolution"
-	ship_prefix=
-	{
-		key="RV"
-		literal=yes
-	}
-	species=
-	{
-		class="REP"
-		portrait="pro2"
-		species_name=
-		{
-			key="Spartian"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Spartians"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				{
-					key="adjective"
-					value=
-					{
-						key="Spartian"
-						literal=yes
-					}
-				}
-			}
-		}
-		name_list="HUM4"
-		gender=not_set
-		trait="trait_clone_soldier_infertile"
-		trait="trait_unruly"
-		trait="trait_intelligent"
-		trait="trait_deviants"
-		trait="trait_ingenious"
-		trait="trait_natural_engineers"
-	}
-	name=
-	{
-		key="The Spartakus Revolution"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			{
-				key="adjective"
-				value=
-				{
-					key="Spartian"
-					literal=yes
-				}
-			}
-		}
-	}
-	authority="auth_democratic"
-	government="gov_communal_parity"
-	planet_name=
-	{
-		key="Sparta"
-		literal=yes
-	}
-	planet_class="pc_desert"
-	system_name=
-	{
-		key="Home of the Revolution"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="nemesis_01"
-	city_graphical_culture="cybernetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_9311.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Hive1.dds"
-		}
-		colors=
-		{
-			"red"
-			"light_orange"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					{
-						key="1"
-						value=
-						{
-							key="HUM4_CHR_Mel"
-						}
-					}
-					{
-						key="2"
-						value=
-						{
-							key="HUM4_CHR_talOln"
-						}
-					}
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="pro2"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="frozen7_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_militarist"
-	civics=
-	{
-		"civic_shared_burden"
-		"civic_distinguished_admiralty"
-	}
-	origin="origin_clone_army"
-}
 "The Purtailians"=
 {
 	key="The Purtailians"
@@ -20073,6 +19553,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -20081,6 +19562,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MOL1"
@@ -20101,6 +19583,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20109,6 +19592,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -20340,6 +19824,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20348,6 +19833,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_democratic"
@@ -20396,6 +19882,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -20403,6 +19890,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="PLANT3_CHR_Rowan"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -20410,6 +19898,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="PLANT3_CHR_Hawthorn"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -20460,6 +19949,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -20468,6 +19958,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE_AGE1"
@@ -20488,6 +19979,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20496,6 +19988,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
@@ -20613,6 +20106,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -20621,6 +20115,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		species_bio="Soul of the Galaxy"
@@ -20642,6 +20137,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20650,6 +20146,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -20698,6 +20195,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -20705,6 +20203,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AVI4_CHR_Hugin"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -20712,6 +20211,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="AVI4_CHR_Sakati"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -20764,6 +20264,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -20772,9 +20273,10 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
-		species_bio="The Message must be Spread"
+		species_bio="The message must be spread. The Saar fervently believe it is their divine mandate to spread their Gospel of the Masses, a blend of megachurch fervor and communist ideology. Their history is rooted in the Childrens of the Star-cult, uniting the Saar under a vision of galactic unity."
 		name_list="HUM4"
 		gender=indeterminable
 		trait="trait_traditional"
@@ -20793,6 +20295,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20801,10 +20304,11 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
-	authority="auth_democratic"
-	government="gov_communal_parity"
+	authority="auth_corporate"
+	government="gov_worker_coop"
 	advisor_voice_type="l_spiritualist"
 	planet_name=
 	{
@@ -20863,12 +20367,12 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	ignore_portrait_duplication=no
 	room="shroudwalkers_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_spiritualist"
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
 	civics=
 	{
-		"civic_dimensional_worship"
-		"civic_shared_burden"
+		"civic_gospel_of_the_masses"
+		"civic_worker_coop"
 	}
 	origin="origin_riftworld"
 }
@@ -20898,6 +20402,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -20906,6 +20411,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="MACHINE_AGE3"
@@ -20926,6 +20432,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -20934,6 +20441,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_dictatorial"
@@ -20983,6 +20491,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_2%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -20990,6 +20499,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="INDIMACHINES2_CHR_S._Tusu"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -20997,6 +20507,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="INDIMACHINES2_CHR_Neelar"
 						}
 					}
+ 
 				}
 			}
 			use_full_regnal_name=yes
@@ -21020,7 +20531,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_exalted_priesthood"
 		"civic_individual_machine_replication"
 	}
-	origin="origin_here_be_dragons"
+	origin="origin_remnants"
 }
 "The Heralds"=
 {
@@ -21048,6 +20559,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="Heraldian"
 			literal=yes
 		}
+		species_bio="The Heralds are a religious death cult, with records indicating they arrived in this galaxy from another. Their home system contains a gateway, hinting at their extragalactic origins. Their society is structured around a unique interpretation of death, which influences their every action and interaction."
 		name_list="MOL2"
 		gender=not_set
 		trait="trait_nomadic"
@@ -21066,6 +20578,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -21074,6 +20587,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_oligarchic"
@@ -21142,7 +20656,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_death_cult"
 		"civic_guided_sapience"
 	}
-	origin="origin_default"
+	origin="origin_galactic_doorstep"
 }
 "The First"=
 {
@@ -21170,6 +20684,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			key="%ADJECTIVE%"
 			variables=
 			{
+				
 				{
 					key="adjective"
 					value=
@@ -21178,10 +20693,16 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 						literal=yes
 					}
 				}
+ 
 			}
 		}
 		name_list="ART3"
 		gender=not_set
+		trait="trait_repugnant"
+		trait="trait_nascent_stage"
+		trait="trait_rapid_breeders"
+		trait="trait_intelligent"
+		trait="trait_spatial_mastery"
 	}
 	name=
 	{
@@ -21193,6 +20714,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -21201,10 +20723,11 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_imperial"
-	government="gov_divine_empire"
+	government="gov_theocratic_monarchy"
 	planet_name=
 	{
 		key="Atrozal"
@@ -21249,6 +20772,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="%LEADER_1%"
 				variables=
 				{
+					
 					{
 						key="1"
 						value=
@@ -21256,6 +20780,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="ART3_CHR_Lopdolf"
 						}
 					}
+ 
 					{
 						key="2"
 						value=
@@ -21263,6 +20788,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 							key="ART3_CHR_Leexidanaca"
 						}
 					}
+ 
 				}
 			}
 		}
@@ -21284,7 +20810,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	civics=
 	{
 		"civic_natural_design"
-		"civic_imperial_cult"
+		"civic_dark_consortium"
 	}
 	origin="origin_remnants"
 }
@@ -21333,6 +20859,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		key="%ADJ%"
 		variables=
 		{
+			
 			{
 				key="adjective"
 				value=
@@ -21341,6 +20868,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 					literal=yes
 				}
 			}
+ 
 		}
 	}
 	authority="auth_corporate"
@@ -21410,4 +20938,319 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_ruthless_competition"
 	}
 	origin="origin_void_dwellers"
+}
+"Senate of Codexia"=
+{
+	key="Senate of Codexia"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art9"
+		species_name=
+		{
+			key="Beamite"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Beamites"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Beamite"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="HIVE1"
+		gender=indeterminable
+		trait="trait_traditional"
+		trait="trait_conformists"
+		trait="trait_wasteful"
+		trait="trait_nonadaptive"
+		trait="trait_docile"
+	}
+	name=
+	{
+		key="Senate of Codexia"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Bematinan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	planet_name=
+	{
+		key="Codexia"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Statulux"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9313.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_21_92.dds"
+		}
+		colors=
+		{
+			"dark_brown"
+			"dark_orange"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HIVE1_CHR_Motile_Constituent"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HIVE1_CHR_Completer"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="art9"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape7_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	civics=
+	{
+		"civic_efficient_bureaucracy"
+		"civic_byzantine_bureaucracy"
+	}
+	origin="origin_default"
+}
+"Federation of Terrakin"=
+{
+	key="Federation of Terrakin"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Humans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Human"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_incubator"
+		trait="trait_thrifty"
+		trait="trait_unruly"
+		trait="trait_quarrelsome"
+		trait="trait_natural_engineers"
+	}
+	name=
+	{
+		key="Federation of Terrakin"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Human"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	planet_name=
+	{
+		key="Terra Nova"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Betha Centauri"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="just-more-flags"
+			file="flag_united_systems_republic.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_31.dds"
+		}
+		colors=
+		{
+			"shadow_blue"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN1_CHR_Bambanani"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN1_CHR_Bankole"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="human_male_05"
+		texture=2
+		evolution_mask=0
+		attachment=47
+		clothes=1
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape13_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_merchant_guilds"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_default"
 }
