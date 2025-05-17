@@ -9754,7 +9754,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="mammalian_01"
+	graphical_culture="biogenesis_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag=
 	{
@@ -9832,145 +9832,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_default"
 }
-"The Following of Grimm"=
-{
-	key="The Following of Grimm"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="AVI"
-		portrait="avi13"
-		species_name=
-		{
-			key="Grimmling"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Grimmlings"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Grimmlish"
-			literal=yes
-		}
-		name_list="AVI4"
-		gender=not_set
-		trait="trait_traditional"
-		trait="trait_conformists"
-		trait="trait_wasteful"
-	}
-	name=
-	{
-		key="The Following of Grimm"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Grimm"
-				}
-			}
- 
-		}
-	}
-	authority="auth_oligarchic"
-	government="gov_grim_council"
-	planet_name=
-	{
-		key="SPEC_Saiiban_planet"
-	}
-	planet_class="pc_arid"
-	system_name=
-	{
-		key="SPEC_Saiiban_system"
-	}
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="avian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="necroid"
-			file="necroid_08.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="horizontal.dds"
-		}
-		colors=
-		{
-			"dark_grey"
-			"black"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="AVI4_CHR_Cassram"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="AVI4_CHR_Yukonna"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="avi13"
-		texture=3
-		attachment=0
-		clothes=0
-		trait="trait_ruler_warlike"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="spiritualist9_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_spiritualist"
-	civics=
-	{
-		"civic_death_cult"
-		"civic_crafters"
-	}
-	origin="origin_default"
-}
 "State of Utopia"=
 {
 	key="State of Utopia"
@@ -10039,7 +9900,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 	}
 	authority="auth_oligarchic"
-	government="gov_irenic_bureaucracy"
+	government="gov_theocratic_oligarchy"
 	advisor_voice_type="l_spiritualist"
 	planet_name=
 	{
@@ -10070,7 +9931,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		colors=
 		{
 			"dark_brown"
-			"dark_teal"
+			"teal"
 			"black"
 			"null"
 		}
@@ -10107,8 +9968,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	ignore_portrait_duplication=no
 	room="cityscape8_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics=
 	{
@@ -10422,152 +10282,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_default"
 }
-"Delphonan Confederacy"=
-{
-	key="Delphonan Confederacy"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="AQUATIC"
-		portrait="aqu9"
-		species_name=
-		{
-			key="Delph"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Delph"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Delph"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="AQUATIC3"
-		gender=not_set
-		trait="trait_aquatic"
-		trait="trait_agrarian"
-		trait="trait_nonadaptive"
-		trait="trait_fleeting"
-		trait="trait_conservational"
-	}
-	name=
-	{
-		key="Delphonan Confederacy"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Delphonan"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_moral_democracy"
-	advisor_voice_type="l_pacifist"
-	planet_name=
-	{
-		key="Delphona"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Delphona"
-		literal=yes
-	}
-	initializer="ocean_paradise_start"
-	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="ornate"
-			file="flag_ornate_22.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="vertical.dds"
-		}
-		colors=
-		{
-			"blue"
-			"toxic_green"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="AQUATIC3_CHR_Azrusakkun"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="aqu9"
-		texture=10
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Delphonan Speaker"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Delphonan Spreaker"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="underwater2_room"
-	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_pacifist"
-	civics=
-	{
-		"civic_anglers"
-		"civic_agrarian_idyll"
-	}
-	origin="origin_ocean_paradise"
-}
 "Greater Prossan Empire"=
 {
 	key="Greater Prossan Empire"
@@ -10668,7 +10382,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		colors=
 		{
 			"black"
-			"red"
+			"off_white"
 			"black"
 			"null"
 		}
@@ -11018,7 +10732,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	ignore_portrait_duplication=no
 	room="outdoor11_room"
 	spawn_enabled=always
-	ethic="ethic_pacifist"
+	ethic="ethic_militarist"
 	ethic="ethic_fanatic_spiritualist"
 	civics=
 	{
@@ -11037,8 +10751,8 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	species=
 	{
-		class="AQUATIC"
-		portrait="aqu15"
+		class="MAM"
+		portrait="mammalian_ar_09"
 		species_name=
 		{
 			key="Azure"
@@ -11056,11 +10770,11 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 		name_list="AQUATIC4"
 		gender=not_set
-		trait="trait_aquatic"
 		trait="trait_incubator"
 		trait="trait_natural_engineers"
 		trait="trait_unruly"
 		trait="trait_sedentary"
+		trait="trait_seasonal_dormancy"
 	}
 	name=
 	{
@@ -11098,9 +10812,9 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		key="Azuran Throne"
 		literal=yes
 	}
-	initializer="ocean_paradise_start"
+	initializer=""
 	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
+	city_graphical_culture="cybernetics_01"
 	empire_flag=
 	{
 		icon=
@@ -11116,7 +10830,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		colors=
 		{
 			"black"
-			"shadow_blue"
+			"intense_blue"
 			"black"
 			"null"
 		}
@@ -11132,7 +10846,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				literal=yes
 			}
 		}
-		portrait="aqu15"
+		portrait="mammalian_ar_09"
 		texture=0
 		attachment=0
 		clothes=0
@@ -11161,7 +10875,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="underwater1_room"
+	room="throne7_room"
 	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
@@ -11171,7 +10885,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		"civic_feudal_realm"
 		"civic_pompous_purists"
 	}
-	origin="origin_ocean_paradise"
+	origin="origin_default"
 }
 "Union of Stellar Socialist Republics"=
 {

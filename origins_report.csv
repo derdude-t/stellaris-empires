@@ -2,7 +2,7 @@ N;Origin;Empires
 1;origin_arc_welders;Vastuan Mining Corp.
 4;origin_clone_army;"Gox Legion;Great Fafossan Crusade;Seventh Army;The Red Army"
 2;origin_cybernetic_creed;"Sacred Circuitry Order;The Mortal Archkingdom"
-41;origin_default;"Alari Ascendancy;Bathyrian Archduchy;Celestrial Empire;Commonwealth of Man;Democratic Republic of Almania;Empire of The Fist;Federal Republic of Almania;Federation of Cradon;Federation of Terrakin;Fravallonian Aquifiers;Greater Prossan Empire;Haa'ra Perfectionists;Imperial Core of Vermillion;Imperium Remanum;Interstellar Financial Clerkship;Kukia Teikoku;League of Free Nations;Masters of the Starry Canvas;Nogger Choc Incorporate Ltd. ;Okon Commune;People's Liberation Army;Relurian Conclave;Rhalata Shera;Senate of Codexia;Shadow Council;Sneed's Feed & Gaia Seed;Souki Nation;Stellar Viss Republic;The Following of Grimm;The Great Hond Empire;The Purtailians;The Sophan Directorate;Thralldom of Ea Nasir;Tyrathian Cooperative;Union of Free Peoples;Union of Stellar Socialist Republics;United Agrarian Communes;Voor Technocracy;Vrinn Clique;Wagner PMC;Will of Phila"
+41;origin_default;"Alari Ascendancy;Bathyrian Archduchy;Celestrial Empire;Commonwealth of Man;Democratic Republic of Almania;Empire of The Fist;Federal Republic of Almania;Federation of Cradon;Federation of Terrakin;Fravallonian Aquifiers;Greater Prossan Empire;Haa'ra Perfectionists;Imperial Core of Vermillion;Imperium Remanum;Interstellar Financial Clerkship;Kukia Teikoku;League of Free Nations;Masters of the Starry Canvas;Nogger Choc Incorporate Ltd. ;Okon Commune;People's Liberation Army;Realm of the Azurian Crown;Relurian Conclave;Rhalata Shera;Senate of Codexia;Shadow Council;Sneed's Feed & Gaia Seed;Souki Nation;Stellar Viss Republic;The Great Hond Empire;The Purtailians;The Sophan Directorate;Thralldom of Ea Nasir;Tyrathian Cooperative;Union of Free Peoples;Union of Stellar Socialist Republics;United Agrarian Communes;Voor Technocracy;Vrinn Clique;Wagner PMC;Will of Phila"
 3;origin_doomsday;"Gryphite Emergency Government;Human Rescue Protocol;Sol Emergency Government"
 1;origin_evolutionary_predators;The World-Eaters
 1;origin_fear_of_the_dark;Etharian Unity
@@ -14,7 +14,7 @@ N;Origin;Empires
 1;origin_machine;pi_calc.py
 5;origin_mechanists;"Arken Mechnocracy;Gorothian Mechanocracy;League of Nereum States;People's Supreme Republics;The Hoonan System"
 2;origin_necrophage;"Realm of the Obsidian Crown;The Thousand Year Empire"
-5;origin_ocean_paradise;"Delphonan Confederacy;Holy Volturian Empire;Liberty Vanguard;Mandate of the Great Old Ones;Realm of the Azurian Crown"
+3;origin_ocean_paradise;"Holy Volturian Empire;Liberty Vanguard;Mandate of the Great Old Ones"
 5;origin_overtuned;"Azith Reick;Enlightened Empire;Free Interstellar Nations;The Cravers;The Promethokratia"
 9;origin_post_apocalyptic;"Black Army;Black Tyrannis;Council of the Reborn;Gryphonian University of Astropolitical Sciences;Hermit Kingdom of Juche;League of Survivors;Rapaxspora Dominans;Revenant Order;Supreme Amanitan Republics"
 1;origin_primal_calling;Symbiotes of Terra Palia

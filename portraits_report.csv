@@ -3,12 +3,10 @@ N;Name;Reiche
 1;aqu10;Fravallonian Aquifiers
 1;aqu11;Realm of the Highest Being
 1;aqu12;Shadow Council
-1;aqu15;Realm of the Azurian Crown
 1;aqu2;Nacloridan State
 1;aqu5;Holy Volturian Empire
 1;aqu6;League of Nereum States
 1;aqu8;Mandate of the Great Old Ones
-1;aqu9;Delphonan Confederacy
 1;art17;Enlightened Empire
 1;art20;The First
 1;art3;The Cravers
@@ -17,7 +15,6 @@ N;Name;Reiche
 1;avi1;Hiran Astral Fellowship
 1;avi10;Will of Phila
 1;avi12;Thralldom of Ea Nasir
-1;avi13;The Following of Grimm
 1;avi14;Federation of Cradon
 1;avi15;The Sophan Directorate
 1;avi16;Greater Prossan Empire
@@ -73,6 +70,7 @@ N;Name;Reiche
 1;mammalian_ar_04;Union of Free Peoples
 1;mammalian_ar_06;Gorothian Mechanocracy
 1;mammalian_ar_08;Stellar Viss Republic
+1;mammalian_ar_09;Realm of the Azurian Crown
 2;mol1;"Arken Mechnocracy;Kukia Teikoku"
 1;mol14;Guards to the Gates of Babylon 
 1;mol2;Atoriax Republic
