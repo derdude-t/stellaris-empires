@@ -8,3 +8,4 @@
 !tooling/*
 !*.rs
 !tooling
+!datei.csv
