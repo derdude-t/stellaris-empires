@@ -1,32 +1,31 @@
 N;Origin;Empires
 1;origin_arc_welders;Vastuan Mining Corp.
-3;origin_clone_army;"27th Gox Legion;Great Fafossan Crusade;The Red Army"
+4;origin_clone_army;"Gox Legion;Great Fafossan Crusade;Seventh Army;The Red Army"
 2;origin_cybernetic_creed;"Sacred Circuitry Order;The Mortal Archkingdom"
-40;origin_default;"Alari Ascendancy;Bathyrian Archduchy;Celestrial Empire;Democratic Republic of Almania;Empire of The Fist;Federal Republic of Almania;Federation of Cradon;Federation of Terrakin;Fravallonian Aquifiers;Great Qud Clique;Greater Prossan Empire;Haa'ra Perfectionists;Imperial Core of Vermillion;Imperium Remanum;Interstellar Financial Clerkship;Kukia Teikoku;League of Free Nations;Masters of the Starry Canvas;Metal Warrior Kingdom;Nogger Choc Incorporate Ltd. ;Okon Commune;People's Liberation Army;Realm of the Azurian Crown;Rhalata Shera;Senate of Codexia;Shadow Council;Sneed's Feed & Gaia Seed;Souki Nation;Stellar Viss Republic;Systems of the Free;The Great Hond Empire;The Sophan Directorate;Thralldom of Ea Nasir;Tyrathian Cooperative;Union of Free Peoples;Union of Stellar Socialist Republics;United Agrarian Communes;Wagner PMC;Wagnerite PMC;Will of Phila"
+42;origin_default;"Alari Ascendancy;Bathyrian Archduchy;Celestrial Empire;Commonwealth of Man;Democratic Republic of Almania;Empire of The Fist;Federal Republic of Almania;Federation of Cradon;Federation of Terrakin;Fravallonian Aquifiers;Freedom Crusade;Greater Prossan Empire;Haa'ra Perfectionists;Imperial Core of Vermillion;Imperium Remanum;Interstellar Financial Clerkship;Kukia Teikoku;League of Free Nations;Masters of the Starry Canvas;Nogger Choc Incorporate Ltd. ;Okon Commune;People's Liberation Army;Realm of the Azurian Crown;Relurian Conclave;Rhalata Shera;Senate of Codexia;Shadow Council;Sneed's Feed & Gaia Seed;Souki Nation;Stellar Viss Republic;The Great Hond Empire;The Purtailians;The Sophan Directorate;Thralldom of Ea Nasir;Tyrathian Cooperative;Union of Free Peoples;Union of Stellar Socialist Republics;United Agrarian Communes;Voor Technocracy;Vrinn Clique;Wagner PMC;Will of Phila"
 3;origin_doomsday;"Gryphite Emergency Government;Human Rescue Protocol;Sol Emergency Government"
 1;origin_evolutionary_predators;The World-Eaters
 1;origin_fear_of_the_dark;Etharian Unity
 1;origin_fruitful;Sneeding Initiative
 2;origin_galactic_doorstep;"Awaiter of the Singularity;The Heralds"
 2;origin_here_be_dragons;"Realm of the Highest Being;Silvernia Utopia"
-4;origin_legendary_leader;"Hirriosh Empire;Ordensstaat Burgund;The Blue Horde;The Caliphate"
+5;origin_legendary_leader;"Hirriosh Empire;Imperium of Man;Ordensstaat Burgund;The Blue Horde;The Caliphate"
 5;origin_life_seeded;" Guardians of Yggdrasil;Commune of Haumea;Orion's Refuge;Rharion's Idyll Protectorate;State of Utopia"
 1;origin_machine;pi_calc.py
-4;origin_mechanists;"Arken Mechnocracy;Gorothian Mechanocracy;League of Nereum States;People's Supreme Republics"
+5;origin_mechanists;"Arken Mechnocracy;Gorothian Mechanocracy;League of Nereum States;People's Supreme Republics;The Hoonan System"
 2;origin_necrophage;"Realm of the Obsidian Crown;The Thousand Year Empire"
-4;origin_ocean_paradise;"Blessed Zumatran Sapdom;Holy Volturian Empire;Liberty Vanguard;Mandate of the Great Old Ones"
-4;origin_overtuned;"Azith Reick;Free Interstellar Nations;The Cravers;The Promethokratia"
-7;origin_post_apocalyptic;"Black Army;Black Tyrannis;Council of the Reborn;Gryphonian University of Astropolitical Sciences;Hermit Kingdom of Juche;League of Survivors;Rapaxspora Dominans"
+3;origin_ocean_paradise;"Holy Volturian Empire;Liberty Vanguard;Mandate of the Great Old Ones"
+5;origin_overtuned;"Azith Reick;Enlightened Empire;Free Interstellar Nations;The Cravers;The Promethokratia"
+9;origin_post_apocalyptic;"Black Army;Black Tyrannis;Council of the Reborn;Gryphonian University of Astropolitical Sciences;Hermit Kingdom of Juche;League of Survivors;Rapaxspora Dominans;Revenant Order;Supreme Amanitan Republics"
 1;origin_primal_calling;Symbiotes of Terra Palia
-1;origin_progenitor_hive;Atoriax Republic
-4;origin_remnants;"Seekers of the Past;The First;The Galactic Papacy;Will of the Creator"
-2;origin_riftworld;"Children of the Stars;Order of the Ethereal"
-1;origin_shoulders_of_giants;Second Shahan-shahi
-4;origin_shroudwalker_apprentice;"Covenant of Uriy;Soul of the Galaxy;Tenarian Reformed Church;The Shroudborn"
-2;origin_starlit_citadel;"Guards to the Gates of Babylon ;Outer Refuge"
-5;origin_subterranean;"Cult of Dioa;Guilds of Minimor;The Dwaph Complex;Tumbatoran Sovereignty;United Districts of Dix"
-4;origin_syncretic_evolution;"Clerk State;Lone Star State;Nacloridan State;Undefiled Sons of Sol"
-1;origin_toxic_knights;Tenebrous Warpath
+2;origin_progenitor_hive;"Atoriax Republic;Hal-ka Consciousness"
+6;origin_remnants;"Second Shahan-shahi;Seekers of the Past;Systems of the Free;The First;The Galactic Papacy;Will of the Creator"
+3;origin_riftworld;"Children of the Stars;Hiran Astral Fellowship;Order of the Ethereal"
+4;origin_shroudwalker_apprentice;"Covenant of Uriy;Realm of the Divine Throne;Soul of the Galaxy;The Shroudborn"
+1;origin_star_slingshot;Free Blorg Community
+1;origin_starlit_citadel;Guards to the Gates of Babylon 
+6;origin_subterranean;"Cult of Dioa;Guilds of Minimor;Metal Warrior Kingdom;The Dwaph Complex;Tumbatoran Sovereignty;United Districts of Dix"
+3;origin_syncretic_evolution;"Clerk State;Lone Star State;Nacloridan State"
+2;origin_synthetic_fertility;"Enora's Hope;The Aeon Vanguard"
 1;origin_tree_of_life;Roots of the Cedar
-1;origin_void_dwellers;Nylli Company
-1;origin_wilderness;Hal-ka Consciousness
+2;origin_void_dwellers;"Nylli Company;Vants"
