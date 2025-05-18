@@ -9059,12 +9059,24 @@
  
 			}
 		}
-		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
-
-
-
-
-
+		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Despite their reclusive nature, the Dwaph exhibit a complex social structure and excel in crafting and engineering. As they advance technologically, they aim to restore Dwaphiona to its former state and seek to explore the cosmos, uncovering potential allies or adversaries among other civilizations."
 		name_list="TOX3"
 		gender=not_set
@@ -11041,432 +11053,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_default"
 }
-"Vrinn Clique"=
-{
-	key="Vrinn Clique"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="humanoid_hp_12"
-		species_name=
-		{
-			key="SPEC_Vrinn"
-		}
-		species_plural=
-		{
-			key="SPEC_Vrinn_pl"
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="SPEC_Vrinn"
-					}
-				}
- 
-			}
-		}
-		name_list="MAM2"
-		gender=male
-		trait="trait_repugnant"
-		trait="trait_humanoid_existential_iteroparity"
-		trait="trait_industrious"
-	}
-	name=
-	{
-		key="Vrinn Clique"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="SPEC_Vrinn"
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_bandit_kingdom"
-	planet_name=
-	{
-		key="SPEC_Alvanian_planet"
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="SPEC_Alvanian_system"
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="molluscoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="blocky"
-			file="flag_blocky_9314.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Diamond.dds"
-		}
-		colors=
-		{
-			"swamp_green"
-			"black"
-			"blue"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="Durim Vrinn"
-				literal=yes
-			}
-		}
-		portrait="humanoid_hp_12"
-		texture=0
-		attachment=0
-		clothes=8
-		heir_title=
-		{
-			key="Warchild"
-			literal=yes
-		}
-		trait="trait_ruler_warlike"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="throne8_room"
-	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_militarist"
-	civics=
-	{
-		"civic_barbaric_despoilers"
-		"civic_warrior_culture"
-	}
-	origin="origin_default"
-}
-"Gox Legion"=
-{
-	key="Gox Legion"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="REP"
-		portrait="rep13"
-		species_name=
-		{
-			key="Goxian"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Goxians"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Goxian"
-			literal=yes
-		}
-		name_list="REP3"
-		gender=not_set
-		trait="trait_clone_soldier_infertile"
-		trait="trait_very_strong"
-		trait="trait_unruly"
-		trait="trait_wasteful"
-		trait="trait_industrious"
-	}
-	name=
-	{
-		key="Gox Legion"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="SPEC_Gox"
-				}
-			}
- 
-		}
-	}
-	authority="auth_oligarchic"
-	government="gov_military_junta"
-	advisor_voice_type="l_the_soldier"
-	planet_name=
-	{
-		key="Goxo"
-		literal=yes
-	}
-	planet_class="pc_savannah"
-	system_name=
-	{
-		key="Gox"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="avian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="domination"
-			file="domination_14.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="TopTriangle.dds"
-		}
-		colors=
-		{
-			"dark_grey"
-			"red"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="REP3_CHR_Dorbax"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="rep13"
-		texture=1
-		attachment=0
-		clothes=0
-		trait="trait_ruler_warlike"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="militarist6_room"
-	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_militarist"
-	civics=
-	{
-		"civic_distinguished_admiralty"
-		"civic_nationalistic_zeal"
-	}
-	origin="origin_clone_army"
-}
-"Hiran Astral Fellowship"=
-{
-	key="Hiran Astral Fellowship"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="AVI"
-		portrait="avi1"
-		species_name=
-		{
-			key="SPEC_Hiran"
-		}
-		species_plural=
-		{
-			key="SPEC_Hiran_pl"
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="SPEC_Hiran"
-					}
-				}
- 
-			}
-		}
-		name_list="AVI4"
-		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_rapid_breeders"
-		trait="trait_natural_physicists"
-		trait="trait_deviants"
-		trait="trait_unruly"
-	}
-	name=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="SPEC_Hiran"
-				}
-			}
- 
-			{
-				key="1"
-				value=
-				{
-					key="Astral_Fellowship"
-				}
-			}
- 
-		}
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="SPEC_Hiran"
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_dimensional_covenant"
-	advisor_voice_type="l_spiritualist"
-	planet_name=
-	{
-		key="SPEC_Keerim_planet"
-	}
-	planet_class="pc_tropical"
-	system_name=
-	{
-		key="Solaris Kershi"
-		literal=yes
-	}
-	initializer="custom_starting_init_01"
-	graphical_culture="avian_01"
-	city_graphical_culture="avian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="aquatic"
-			file="aquatic_02.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="new_dawn.dds"
-		}
-		colors=
-		{
-			"shadow_blue"
-			"toxic_green"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="AVI4_CHR_Akkan"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="AVI4_CHR_Ika"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="avi1"
-		texture=0
-		attachment=0
-		clothes=4
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="hive7_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_spiritualist"
-	civics=
-	{
-		"civic_dimensional_worship"
-		"civic_dark_consortium"
-	}
-	origin="origin_riftworld"
-}
 "Sneeding Initiative"=
 {
 	key="Sneeding Initiative"
@@ -11608,178 +11194,13 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_fruitful"
 }
-"Relurian Conclave"=
-{
-	key="Relurian Conclave"
-	ship_prefix=
-	{
-		key="Blessed Ship"
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="humanoid_hp_07"
-		species_name=
-		{
-			key="Relurian"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Relurians"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Relurian"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="TOX4"
-		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_humanoid_existential_iteroparity"
-		trait="trait_deviants"
-		trait="trait_unruly"
-		trait="trait_natural_physicists"
-	}
-	name=
-	{
-		key="Relurian Conclave"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Relurian"
-				}
-			}
- 
-		}
-	}
-	authority="auth_oligarchic"
-	government="gov_theocratic_oligarchy"
-	planet_name=
-	{
-		key="Hero's Home"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Crusader's Guidance"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="pointy"
-			file="flag_pointy_9121.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="pyramid.dds"
-		}
-		colors=
-		{
-			"khaki_brown"
-			"off_white"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="TOX4_CHA_Unkind"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="TOX4_CHA_Forever"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="humanoid_hp_07_female"
-		texture=0
-		attachment=0
-		clothes=4
-		ruler_title=
-		{
-			key="Crusader"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Crusader"
-			literal=yes
-		}
-		trait="trait_ruler_warlike"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="throne4_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics=
-	{
-		"civic_crusader_spirit"
-		"civic_hyperspace_specialty"
-	}
-	origin="origin_default"
-}
 "Council of the Reborn"=
 {
 	key="Council of the Reborn"
 	ship_prefix=
 	{
-		key="ISS"
+		key="Reborn"
+		literal=yes
 	}
 	species=
 	{
@@ -11787,12 +11208,12 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		portrait="nec8"
 		species_name=
 		{
-			key="Newer"
+			key="Renatus"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Neweran"
+			key="Renatu"
 			literal=yes
 		}
 		species_adjective=
@@ -11805,7 +11226,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 					key="adjective"
 					value=
 					{
-						key="Newer"
+						key="Renatus"
 						literal=yes
 					}
 				}
@@ -11836,7 +11257,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 				key="adjective"
 				value=
 				{
-					key="Rebornist"
+					key="Renatan"
 					literal=yes
 				}
 			}
@@ -11912,8 +11333,14 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 		portrait="nec8"
 		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=0
+		ruler_title=
+		{
+			key="First among the Reborn"
+			literal=yes
+		}
 		trait="leader_trait_spark_of_genius"
 		leader_class="scientist"
 	}
@@ -12083,161 +11510,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_default"
 }
-"Enlightened Empire"=
-{
-	key="Enlightened Empire"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="ART"
-		portrait="art17"
-		species_name=
-		{
-			key="Arachnova"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Arachnovae"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Arachnova"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="MOL3"
-		gender=not_set
-		trait="trait_gene_mentorship"
-		trait="trait_weak"
-		trait="trait_elevated_synapses"
-		trait="trait_enduring"
-		trait="trait_deviants"
-	}
-	name=
-	{
-		key="Enlightened Empire"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Arachnovan"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_illuminated_autocracy"
-	planet_name=
-	{
-		key="Imperial Dawn"
-		literal=yes
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="Imperial Light"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="necroid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="miscgame-6364"
-			file="game-mtg-golgari-old.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="mosaic-round.dds"
-		}
-		colors=
-		{
-			"black"
-			"purple"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="MOL3_CHR_Slervus"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="art17"
-		texture=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Emperor"
-			literal=yes
-		}
-		heir_title=
-		{
-			key="Great Heir"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Empress"
-			literal=yes
-		}
-		heir_title_female=
-		{
-			key="Great Heiress"
-			literal=yes
-		}
-		trait="trait_ruler_eye_for_talent"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="tech4_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_technocracy"
-		"civic_philosopher_king"
-	}
-	origin="origin_overtuned"
-}
 "Azith Reick"=
 {
 	key="Azith Reick"
@@ -12248,8 +11520,8 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	species=
 	{
-		class="NECROID"
-		portrait="nec1"
+		class="HUM"
+		portrait="synth07"
 		species_name=
 		{
 			key="Azith"
@@ -12281,9 +11553,10 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		gender=not_set
 		trait="trait_preplanned_growth"
 		trait="trait_incubator"
-		trait="trait_enduring"
 		trait="trait_unruly"
-		trait="trait_solitary"
+		trait="trait_familial"
+		trait="trait_auto_mod_overtuned"
+		trait="trait_nascent_stage"
 	}
 	name=
 	{
@@ -12312,15 +11585,17 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	advisor_voice_type="l_necroid_vir"
 	planet_name=
 	{
-		key="SPEC_Reyenne_planet"
+		key="Azith"
+		literal=yes
 	}
 	planet_class="pc_ocean"
 	system_name=
 	{
-		key="SPEC_Reyenne_system"
+		key="Azith-A'r"
+		literal=yes
 	}
 	initializer=""
-	graphical_culture="necroid_01"
+	graphical_culture="biogenesis_01"
 	city_graphical_culture="necroid_01"
 	empire_flag=
 	{
@@ -12373,10 +11648,11 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="nec1"
-		texture=3
+		portrait="synth07_m"
+		texture=0
+		evolution_mask=0
 		attachment=0
-		clothes=0
+		clothes=3
 		ruler_title=
 		{
 			key="Reik Executor"
@@ -12387,6 +11663,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="Reik Executor"
 			literal=yes
 		}
+		trait="trait_ruler_eye_for_talent"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -12397,8 +11674,8 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	ethic="ethic_fanatic_xenophobe"
 	civics=
 	{
-		"civic_corvee_system"
 		"civic_selective_kinship"
+		"civic_genetic_identification"
 	}
 	origin="origin_overtuned"
 }
@@ -12551,526 +11828,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	}
 	origin="origin_progenitor_hive"
 }
-"Vants"=
-{
-	key="Vants"
-	ship_prefix=
-	{
-		key="Vant"
-		literal=yes
-	}
-	species=
-	{
-		class="MOL"
-		portrait="mol7"
-		species_name=
-		{
-			key="Vant"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Vants"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Vant"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="HIVE2"
-		gender=indeterminable
-		trait="trait_hive_mind"
-		trait="trait_void_dweller_1"
-		trait="trait_rapid_breeders"
-		trait="trait_nomadic"
-		trait="trait_natural_engineers"
-		trait="trait_humanoid_psychological_infertility"
-	}
-	name=
-	{
-		key="Vants"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Vant"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_hive_mind"
-	government="gov_hive_mind"
-	planet_name=
-	{
-		key="Vant Station"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Star of the Vants"
-		literal=yes
-	}
-	initializer="void_dweller_system"
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="ornate"
-			file="flag_ornate_9116.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="12-pointed-star.dds"
-		}
-		colors=
-		{
-			"desert_yellow"
-			"light_orange"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="Vant"
-				literal=yes
-			}
-		}
-		portrait="mol7"
-		texture=0
-		attachment=0
-		clothes=0
-		trait="trait_ruler_feedback_loop"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="throne5_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_void_hive"
-		"civic_hive_cordyceptic_drones"
-	}
-	origin="origin_void_dwellers"
-}
-"Free Blorg Community"=
-{
-	key="Free Blorg Community"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="FUN"
-		portrait="fun12"
-		species_name=
-		{
-			key="Blorg"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Blorgs"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Blorg"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="FUN1"
-		gender=not_set
-		trait="trait_natural_sociologists"
-		trait="trait_communal"
-		trait="trait_charismatic"
-		trait="trait_quarrelsome"
-		trait="trait_slow_learners"
-	}
-	name=
-	{
-		key="Free Blorg Community"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Blorg"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_representative_democracy"
-	planet_name=
-	{
-		key="Blorg Blorg"
-		literal=yes
-	}
-	planet_class="pc_tropical"
-	system_name=
-	{
-		key="Blorg Blorg"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="blocky"
-			file="flag_blocky_907.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="twins_case.dds"
-		}
-		colors=
-		{
-			"mist_blue"
-			"bright_yellow"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="FUN1_CHR_Humiigol"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="fun12"
-		texture=0
-		attachment=0
-		clothes=0
-		trait="trait_ruler_charismatic"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="plantoid7_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_xenophile"
-	civics=
-	{
-		"civic_diplomatic_corps"
-		"civic_free_haven"
-	}
-	origin="origin_star_slingshot"
-}
-"Voor Technocracy"=
-{
-	key="Voor Technocracy"
-	ship_prefix=
-	{
-		key="PRESCRIPTED_ship_prefix_voor"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="humanoid_hp_06"
-		species_name=
-		{
-			key="PRESCRIPTED_species_name_voor"
-		}
-		species_plural=
-		{
-			key="PRESCRIPTED_species_plural_voor"
-		}
-		species_adjective=
-		{
-			key="PRESCRIPTED_species_adjective_voor"
-		}
-		name_list="HUM2"
-		gender=not_set
-		trait="trait_quick_learners"
-		trait="trait_talented"
-		trait="trait_adaptive"
-		trait="trait_repugnant"
-	}
-	name=
-	{
-		key="EMPIRE_DESIGN_VOOR"
-	}
-	adjective=
-	{
-		key="PRESCRIPTED_adjective_voor"
-	}
-	authority="auth_dictatorial"
-	flags=
-	{
-		"the_voor"
-	}
-	government="gov_technocratic_dictatorship"
-	planet_name=
-	{
-		key="PRESCRIPTED_planet_name_voor"
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="PRESCRIPTED_system_name_voor"
-	}
-	initializer=""
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="spherical"
-			file="flag_spherical_6.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"dark_teal"
-			"dark_teal"
-			"null"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="PRESCRIPTED_ruler_name_voor"
-			}
-		}
-		portrait="humanoid_hp_06"
-		texture=0
-		attachment=0
-		clothes=3
-		ruler_title=
-		{
-			key="PRESCRIPTED_ruler_title_voor"
-		}
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="personality_erudite_explorers_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_technocracy"
-		"civic_environmentalist"
-	}
-	origin="origin_default"
-}
-"Realm of the Divine Throne"=
-{
-	key="Realm of the Divine Throne"
-	ship_prefix=
-	{
-		key="SSC"
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="humanoid_hp_01"
-		species_name=
-		{
-			key="Sanca"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Sancae"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Sanca"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="HUM4"
-		gender=not_set
-		trait="trait_latent_psionic"
-		trait="trait_intelligent"
-		trait="trait_natural_engineers"
-		trait="trait_unruly"
-		trait="trait_deviants"
-		trait="trait_rapid_breeders"
-	}
-	name=
-	{
-		key="Realm of the Divine Throne"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Divine"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_feudal_empire"
-	advisor_voice_type="l_spiritualist"
-	planet_name=
-	{
-		key="Sanctum Purpureum"
-		literal=yes
-	}
-	planet_class="pc_desert"
-	system_name=
-	{
-		key="Sanctum Purpureum"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="nemesis_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="domination"
-			file="domination_19.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_13.dds"
-		}
-		colors=
-		{
-			"burgundy"
-			"shadow_purple"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="Pius ron Avel"
-				literal=yes
-			}
-		}
-		portrait="humanoid_hp_01"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=5
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="cityscape22_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_spiritualist"
-	civics=
-	{
-		"civic_feudal_realm"
-		"civic_crafters"
-	}
-	origin="origin_shroudwalker_apprentice"
-}
 "Great Fafossan Crusade"=
 {
 	key="Great Fafossan Crusade"
@@ -13155,7 +11912,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="humanoid_01"
+	graphical_culture="nemesis_01"
 	city_graphical_culture="toxoid_01"
 	empire_flag=
 	{
@@ -13223,7 +11980,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	key="Federal Republic of Almania"
 	ship_prefix=
 	{
-		key=""
+		key="FRA"
 		literal=yes
 	}
 	species=
@@ -13675,7 +12432,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		"civic_worker_coop"
 		"civic_criminal_heritage"
 	}
-	origin="origin_remnants"
+	origin="origin_default"
 }
 "Democratic Republic of Almania"=
 {
@@ -13748,7 +12505,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="humanoid_01"
+	graphical_culture="reptilian_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag=
 	{
@@ -13760,12 +12517,12 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		background=
 		{
 			category="backgrounds"
-			file="DiamondBannerUltraWideB+TwoCol.dds"
+			file="fabric_half_black_circle.dds"
 		}
 		colors=
 		{
-			"intense_red"
 			"bright_yellow"
+			"intense_red"
 			"black"
 			"null"
 		}
@@ -13811,167 +12568,6 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		"civic_shadow_council"
 	}
 	origin="origin_default"
-}
-"Supreme Amanitan Republics"=
-{
-	key="Supreme Amanitan Republics"
-	ship_prefix=
-	{
-		key="MSF"
-		literal=yes
-	}
-	species=
-	{
-		class="FUN"
-		portrait="fun11"
-		species_name=
-		{
-			key="Amanita"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Amanitans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Amanita"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		species_bio="The Amanitans were a fungoid species whose materialist, ruthlessly meritocratic civilization on their homeworld was devastated by their own hubris - constructing a massive particle accelerator that triggered an apocalyptic \"Mycelial Shockwave.\" Across millennia of regression after this cataclysm, the most cunning and industrious survivors dominated through backbreaking labor, slowly rebuilding industrial productivity.
-
-
-
-
-
-Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined with their obsession for merit-based success drives their egalitarian democracy's determination to re-ascend as galactic architects."
-		name_list="FUN2"
-		gender=indeterminable
-		trait="trait_survivor"
-		trait="trait_plantoid_radiotrophic"
-		trait="trait_plantoid_budding"
-		trait="trait_unruly"
-		trait="trait_natural_engineers"
-		trait="trait_deviants"
-	}
-	name=
-	{
-		key="Supreme Amanitan Republics"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Amanitan"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_direct_democracy"
-	advisor_voice_type="l_the_technocrat"
-	planet_name=
-	{
-		key="Ibolenia"
-		literal=yes
-	}
-	planet_class="pc_alpine"
-	system_name=
-	{
-		key="Great Ibolenia"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="nemesis_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="humanity"
-			file="flag_humanity_13.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="fabric_half.dds"
-		}
-		colors=
-		{
-			"bright_yellow"
-			"light_blue"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=indeterminable
-		name=
-		{
-			full_names=
-			{
-				key="Decimus Fabius"
-				literal=yes
-			}
-		}
-		portrait="fun11"
-		texture=3
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Supreme President"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Supreme President"
-			literal=yes
-		}
-		custom_biography=
-		{
-			key="Rising through the harsh Amanitan meritocracy to the governing Myco-Council, Decimus Fabius secured power as Supreme President and proclaimed a \"Thousand-Year Sporocarp\" of expansionist rebirth for their reunified "
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="apocalyptic4_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_meritocracy"
-		"civic_relentless_industrialists"
-	}
-	origin="origin_post_apocalyptic"
 }
 "League of Nereum States"=
 {
@@ -14119,7 +12715,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="underwater3_room"
+	room="personality_migrating_flock_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_materialist"
@@ -14129,158 +12725,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_anglers"
 	}
 	origin="origin_mechanists"
-}
-"Imperium of Man"=
-{
-	key="Imperium of Man"
-	ship_prefix=
-	{
-		key="UNS"
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Human"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Humans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Human"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="HUMAN1"
-		gender=not_set
-		trait="trait_perfected_genes"
-		trait="trait_intelligent"
-		trait="trait_wasteful"
-		trait="trait_unruly"
-		trait="trait_humanoid_existential_iteroparity"
-		trait="trait_natural_engineers"
-		trait="trait_quick_learners"
-		trait="trait_traditional"
-	}
-	name=
-	{
-		key="Imperium of Man"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Terran"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_dictatorial"
-	government="gov_purity_order"
-	planet_name=
-	{
-		key="Terra"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Sol"
-		literal=yes
-	}
-	initializer="sol_system_initializer"
-	graphical_culture="cybernetics_01"
-	city_graphical_culture="cybernetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="humanity"
-			file="flag_humanity_104.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="BannerHex2.dds"
-		}
-		colors=
-		{
-			"red"
-			"yellow"
-			"orange"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="Magnus Legion"
-				literal=yes
-			}
-		}
-		portrait="human_male_03"
-		texture=0
-		evolution_mask=0
-		attachment=51
-		clothes=4
-		ruler_title=
-		{
-			key="Emperor of Mankind"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Empress of Mankind"
-			literal=yes
-		}
-		trait="leader_trait_legendary_unfriendly"
-		trait="leader_trait_legendary_genetic_purist"
-		trait="leader_trait_legendary_foe_hammer"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="command7_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_militarist"
-	civics=
-	{
-		"civic_fanatic_purifiers"
-		"civic_natural_design"
-	}
-	origin="origin_legendary_leader"
 }
 "Hermit Kingdom of Juche"=
 {
@@ -14804,8 +13248,8 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	species=
 	{
-		class="AQUATIC"
-		portrait="aqu11"
+		class="MAM"
+		portrait="mammalian_ar_05"
 		species_name=
 		{
 			key="Drachne"
@@ -14898,11 +13342,11 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				literal=yes
 			}
 		}
-		portrait="aqu11"
+		portrait="mammalian_ar_05_m"
 		texture=0
 		evolution_mask=0
 		attachment=0
-		clothes=0
+		clothes=1
 		ruler_title=
 		{
 			key="Meddler"
@@ -15318,8 +13762,8 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
  
 		}
 	}
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
+	authority="auth_oligarchic"
+	government="gov_war_council"
 	planet_name=
 	{
 		key="Terra Palia"
@@ -15332,8 +13776,8 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="mammalian_01"
+	graphical_culture="biogenesis_02"
+	city_graphical_culture="biogenesis_01"
 	empire_flag=
 	{
 		icon=
@@ -15387,7 +13831,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	ignore_portrait_duplication=no
 	room="outdoor11_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
+	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
 	civics=
@@ -15440,11 +13884,12 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		name_list="HIVE2"
 		gender=not_set
 		trait="trait_hive_mind"
+		trait="trait_wilderness"
 		trait="trait_enduring"
 		trait="trait_rapid_breeders"
 		trait="trait_adaptive"
 		trait="trait_unruly"
-		trait="trait_sedentary"
+		trait="trait_slow_learners"
 	}
 	name=
 	{
@@ -15472,24 +13917,24 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	government="gov_hive_mind"
 	planet_name=
 	{
-		key="Queen's Gambit"
+		key="Hal-ka"
 		literal=yes
 	}
 	planet_class="pc_tropical"
 	system_name=
 	{
-		key="Eternal Heaven"
+		key="Cold Beyond"
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="molluscoid_01"
-	city_graphical_culture="molluscoid_01"
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="wilderness_01"
 	empire_flag=
 	{
 		icon=
 		{
 			category="xtraemblems"
-			file="circ11.dds"
+			file="rune2.dds"
 		}
 		background=
 		{
@@ -15498,8 +13943,8 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		}
 		colors=
 		{
-			"burgundy"
-			"light_grey"
+			"swamp_green"
+			"light_green"
 			"burgundy"
 			"null"
 		}
@@ -15511,9 +13956,9 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		{
 			full_names=
 			{
-				key="Raxia, First of Their Name"
-				literal=yes
+				key="HIVE2_CHR_Flinch-Walk"
 			}
+			use_full_regnal_name=yes
 		}
 		portrait="cyb9"
 		texture=1
@@ -15522,12 +13967,12 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		clothes=0
 		ruler_title=
 		{
-			key="Progenitor-King"
+			key="Mind"
 			literal=yes
 		}
 		ruler_title_female=
 		{
-			key="Progenitor-Queen"
+			key="Mind"
 			literal=yes
 		}
 		trait="trait_ruler_eye_for_talent"
@@ -15535,7 +13980,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="fungus4_room"
+	room="barren2_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=
@@ -15543,7 +13988,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_hive_upkeep_twister"
 		"civic_hive_pooled_knowledge"
 	}
-	origin="origin_progenitor_hive"
+	origin="origin_wilderness"
 }
 "Haa'ra Perfectionists"=
 {
@@ -15617,7 +14062,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		}
 	}
 	authority="auth_democratic"
-	government="gov_military_commissariat"
+	government="gov_direct_democracy"
 	planet_name=
 	{
 		key="Haa'ra"
@@ -15706,7 +14151,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	room="mech7_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	civics=
 	{
 		"civic_environmental_architects"
@@ -15728,32 +14173,20 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		portrait="nec11"
 		species_name=
 		{
-			key="Rarex"
+			key="Parian"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Rarex"
+			key="Parians"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Rarex"
-						literal=yes
-					}
-				}
- 
-			}
+			key="Parian"
+			literal=yes
 		}
-		species_bio="Once the greatest pleasure planet in the galaxy, Angel's beauty is now nothing more than a giant ruin, everything thats left of a once great galactic empire. After ten thousand years of noble lines fighting for control, an interloper arrived, claiming to have found spacecraft on the planet long ago and exploring the galaxy with it. With his charm, he quickly established himself as the head of the Rarex Progenitors, the reborn Empire, which will now rise from the ashes and restablish it's greatness."
+		species_bio="Once the greatest pleasure planet in the galaxy, Angel's beauty is now nothing more than a giant ruin, everything thats left of a once great galactic empire. After ten thousand years of noble lines fighting for control, an interloper arrived, claiming to have found spacecraft on the planet long ago and exploring the galaxy with it. With his charm, he quickly established himself"
 		name_list="MAM4"
 		gender=not_set
 		trait="trait_venerable"
@@ -15776,7 +14209,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 				key="adjective"
 				value=
 				{
-					key="Rarex"
+					key="Parian"
 					literal=yes
 				}
 			}
@@ -15784,7 +14217,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		}
 	}
 	authority="auth_imperial"
-	government="gov_despotic_hegemony"
+	government="gov_despotic_empire"
 	planet_name=
 	{
 		key="Angel's Beauty"
@@ -15835,11 +14268,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		evolution_mask=0
 		attachment=0
 		clothes=0
-		ruler_title=
-		{
-			key="Overseer"
-			literal=yes
-		}
 		heir_title=
 		{
 			key="Prince"
@@ -15863,13 +14291,13 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	room="cave7_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_materialist"
+	ethic="ethic_xenophile"
 	civics=
 	{
 		"civic_pleasure_seekers"
 		"civic_aristocratic_elite"
 	}
-	origin="origin_remnants"
+	origin="origin_shoulders_of_giants"
 }
 "Thralldom of Ea Nasir"=
 {
@@ -15942,7 +14370,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		}
 	}
 	authority="auth_dictatorial"
-	government="gov_theocratic_dictatorship"
+	government="gov_constitutional_dictatorship"
 	planet_name=
 	{
 		key="Ea Nasir"
@@ -16021,11 +14449,11 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	room="spiritualist2_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_spiritualist"
+	ethic="ethic_xenophobe"
 	civics=
 	{
 		"civic_slaver_guilds"
-		"civic_police_state"
+		"civic_genetic_identification"
 	}
 	origin="origin_default"
 }
@@ -16198,333 +14626,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	}
 	origin="origin_mechanists"
 }
-"Revenant Order"=
-{
-	key="Revenant Order"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="HUM"
-		portrait="humanoid_hp_07"
-		species_name=
-		{
-			key="Hiroxian"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Hiroxi"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Hiroxian"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		species_bio="People thought that the bomb would hold the peace. But it would only bring ruin to a planet once so great its hyms and songs spread without warpdrive throughout the galaxy. But the peace didn't last, and the finality of the bomb failed. Now left with a planet in ruin and countless of those who life in death, a new dawn rises over the remaining population. Calling themselves the Fallacy as a reminder of their failures, they seek to pacify the dead and live in true peace. Away from those who are unaware of their own mistakes."
-		name_list="TOX1"
-		gender=not_set
-		trait="trait_survivor"
-		trait="trait_adaptive"
-		trait="trait_slow_breeders"
-		trait="trait_enduring"
-		trait="trait_traditional"
-	}
-	name=
-	{
-		key="Revenant Order"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Hiroxi"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_dictatorial"
-	government="gov_theocratic_dictatorship"
-	planet_name=
-	{
-		key="Hiroxia Prime"
-		literal=yes
-	}
-	planet_class="pc_desert"
-	system_name=
-	{
-		key="First Light"
-		literal=yes
-	}
-	initializer="custom_starting_init_05"
-	graphical_culture="necroid_01"
-	city_graphical_culture="necroid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="spherical"
-			file="flag_spherical_9320.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="twins_bar_and_roundA.dds"
-		}
-		colors=
-		{
-			"purple"
-			"black"
-			"purple"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="TOX1_CHA_Kryptal"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="TOX1_CHA_Levisir"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="humanoid_hp_07_female"
-		texture=0
-		evolution_mask=0
-		attachment=0
-		clothes=6
-		ruler_title=
-		{
-			key="Master"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Mistress"
-			literal=yes
-		}
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="throne3_room"
-	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
-	civics=
-	{
-		"civic_death_cult"
-		"civic_exalted_priesthood"
-	}
-	origin="origin_post_apocalyptic"
-}
-"The Aeon Vanguard"=
-{
-	key="The Aeon Vanguard"
-	ship_prefix=
-	{
-		key="AVS"
-		literal=yes
-	}
-	species=
-	{
-		class="LITHOID"
-		portrait="lith_human"
-		species_name=
-		{
-			key="Sterona"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Steronai"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Sterona"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="HUM3"
-		gender=not_set
-		trait="trait_lithoid"
-		trait="trait_pathogenic_genes"
-		trait="trait_intelligent"
-		trait="trait_natural_engineers"
-		trait="trait_traditional"
-		trait="trait_fleeting_lithoid"
-	}
-	name=
-	{
-		key="The Aeon Vanguard"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Aeon"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_rational_consensus"
-	planet_name=
-	{
-		key="Aeon"
-		literal=yes
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="Aeon"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_nature3.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="StarWheel.dds"
-		}
-		colors=
-		{
-			"shadow_blue"
-			"orange"
-			"teal"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="HUM3_CHR_Sash"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="HUM3_CHR_na-Febor"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="lith_human_male"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		trait="trait_ruler_charismatic"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="control1_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_dark_consortium"
-		"civic_technocracy"
-	}
-	origin="origin_synthetic_fertility"
-}
 "Metal Warrior Kingdom"=
 {
 	key="Metal Warrior Kingdom"
@@ -16565,14 +14666,13 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		}
 		name_list="HUMAN1"
 		gender=not_set
-		trait="trait_cave_dweller"
-		trait="trait_noxious"
 		trait="trait_industrious"
 		trait="trait_strong"
 		trait="trait_repugnant"
 		trait="trait_familial"
 		trait="trait_nascent_stage"
 		trait="trait_rapid_breeders"
+		trait="trait_quick_learners"
 	}
 	name=
 	{
@@ -16693,174 +14793,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_relentless_industrialists"
 		"civic_natural_design"
 	}
-	origin="origin_subterranean"
-}
-"Seventh Army"=
-{
-	key="Seventh Army"
-	ship_prefix=
-	{
-		key="SFS"
-		literal=yes
-	}
-	species=
-	{
-		class="LITHOID"
-		portrait="lith1"
-		species_name=
-		{
-			key="Septarite"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Septarites"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Septarite"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="LITHOID4"
-		gender=not_set
-		trait="trait_lithoid"
-		trait="trait_clone_soldier_infertile"
-		trait="trait_traditional"
-		trait="trait_natural_engineers"
-		trait="trait_ingenious"
-		trait="trait_unruly"
-	}
-	name=
-	{
-		key="Seventh Army"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Seventh"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_star_empire"
-	planet_name=
-	{
-		key="Bastion VII"
-		literal=yes
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="Bastion VII"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="aquatic_01"
-	city_graphical_culture="cybernetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_spiritualist6.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="fabric_circle.dds"
-		}
-		colors=
-		{
-			"dark_purple"
-			"green"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_1%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="LITHOID4_CHR_Hasslen"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="LITHOID4_CHR_sharCrambe"
-						}
-					}
- 
-				}
-			}
-		}
-		portrait="lith1"
-		texture=1
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Grand Marshall"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Grand Marshall"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="frozen6_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_militarist"
-	civics=
-	{
-		"civic_distinguished_admiralty"
-		"civic_nationalistic_zeal"
-	}
-	origin="origin_clone_army"
+	origin="origin_default"
 }
 "Vastuan Mining Corp."=
 {
@@ -16992,397 +14925,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_machine_replication"
 	}
 	origin="origin_arc_welders"
-}
-"Enora's Hope"=
-{
-	key="Enora's Hope"
-	ship_prefix=
-	{
-		key="ESS"
-		literal=yes
-	}
-	species=
-	{
-		class="AVI"
-		portrait="synth01"
-		species_name=
-		{
-			key="Enoross"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Enorossi"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Enoross"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="AVI2"
-		gender=not_set
-		trait="trait_pathogenic_genes"
-		trait="trait_natural_engineers"
-		trait="trait_intelligent"
-		trait="trait_unruly"
-		trait="trait_familial"
-	}
-	name=
-	{
-		key="Enora's Hope"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Enora's"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_rational_consensus"
-	planet_name=
-	{
-		key="Enora"
-		literal=yes
-	}
-	planet_class="pc_arctic"
-	system_name=
-	{
-		key="Enora"
-		literal=yes
-	}
-	initializer="custom_starting_init_01"
-	graphical_culture="synthetics_01"
-	city_graphical_culture="synthetics_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_militarist2.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Hive1.dds"
-		}
-		colors=
-		{
-			"light_indigo"
-			"black"
-			"dark_green"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="AVI2_CHR_Tibakh"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="synth01"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=4
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="cityscape13_room"
-	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_materialist"
-	civics=
-	{
-		"civic_technocracy"
-		"civic_crafters"
-	}
-	origin="origin_synthetic_fertility"
-}
-"The Purtailians"=
-{
-	key="The Purtailians"
-	ship_prefix=
-	{
-		key="SRF"
-		literal=yes
-	}
-	species=
-	{
-		class="MOL"
-		portrait="bio6"
-		species_name=
-		{
-			key="Purtail"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Purtails"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Purtail"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="MOL1"
-		gender=not_set
-		trait="trait_intelligent"
-		trait="trait_unruly"
-		trait="trait_deviants"
-		trait="trait_traditional"
-		trait="trait_rapid_breeders"
-	}
-	name=
-	{
-		key="The Purtailians"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Purtailian"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_democratic"
-	government="gov_direct_democracy"
-	advisor_voice_type="l_venerable_scientist_vir"
-	planet_name=
-	{
-		key="SPEC_Alari_planet"
-	}
-	planet_class="pc_ocean"
-	system_name=
-	{
-		key="SPEC_Alari_system"
-	}
-	initializer="custom_starting_init_01"
-	graphical_culture="biogenesis_01"
-	city_graphical_culture="biogenesis_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_purifier3.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="StarWheel.dds"
-		}
-		colors=
-		{
-			"dark_purple"
-			"yellow"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="MOL1_CHR_Garma"
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="bio6"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="First Secretary"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="First Secretary"
-			literal=yes
-		}
-		trait="leader_trait_principled"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="outdoor14_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_meritocracy"
-		"civic_crafters"
-	}
-	origin="origin_default"
-}
-"Commonwealth of Man"=
-{
-	key="Commonwealth of Man"
-	ship_prefix=
-	{
-		key="PRESCRIPTED_ship_prefix_humans2"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="PRESCRIPTED_species_name_humans2"
-		}
-		species_plural=
-		{
-			key="PRESCRIPTED_species_plural_humans2"
-		}
-		species_adjective=
-		{
-			key="PRESCRIPTED_species_adjective_humans2"
-		}
-		name_list="HUMAN2"
-		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_nomadic"
-		trait="trait_wasteful"
-	}
-	name=
-	{
-		key="EMPIRE_DESIGN_humans2"
-	}
-	adjective=
-	{
-		key="PRESCRIPTED_adjective_humans2"
-	}
-	authority="auth_dictatorial"
-	flags=
-	{
-		"human_2"
-		"custom_start_screen"
-	}
-	government="gov_military_dictatorship"
-	planet_name=
-	{
-		key="NAME_Unity"
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="NAME_Deneb"
-	}
-	initializer="deneb_system"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_934.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="DiamondInverted.dds"
-		}
-		colors=
-		{
-			"red"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="PRESCRIPTED_ruler_name_humans2"
-			}
-		}
-		portrait="human_female_04"
-		texture=0
-		evolution_mask=0
-		attachment=6
-		clothes=4
-		trait="trait_ruler_warlike"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=yes
-	room="ethic_dark_side3_room"
-	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_militarist"
-	civics=
-	{
-		"civic_nationalistic_zeal"
-		"civic_distinguished_admiralty"
-	}
-	origin="origin_default"
 }
 "Okon Commune"=
 {
@@ -17526,162 +15068,6 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_environmental_architects"
 	}
 	origin="origin_default"
-}
-"The Hoonan System"=
-{
-	key="The Hoonan System"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="HUM"
-		portrait="cyb8"
-		species_name=
-		{
-			key="Hoon"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Hoons"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Hoonan"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="MACHINE_AGE1"
-		gender=not_set
-		trait="trait_genetic_memory"
-		trait="trait_natural_engineers"
-		trait="trait_intelligent"
-		trait="trait_nascent_stage"
-		trait="trait_repugnant"
-	}
-	name=
-	{
-		key="The Hoonan System"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Hoonan"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_illuminated_autocracy"
-	planet_name=
-	{
-		key="Hoonan"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Hoonan"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="cybernetics_01"
-	city_graphical_culture="mammalian_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="just-more-flags"
-			file="flag_machine2.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="Hive3.dds"
-		}
-		colors=
-		{
-			"red_orange"
-			"dark_blue"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="Wren Mainframe"
-				literal=yes
-			}
-		}
-		portrait="cyb8_m"
-		texture=2
-		evolution_mask=0
-		attachment=0
-		clothes=3
-		ruler_title=
-		{
-			key="Mainframe Reader"
-			literal=yes
-		}
-		heir_title=
-		{
-			key="Mainframe Trainee"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="Mainframe Reader"
-			literal=yes
-		}
-		heir_title_female=
-		{
-			key="Mainframe Trainee"
-			literal=yes
-		}
-		trait="trait_ruler_eye_for_talent"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="command5_room"
-	spawn_enabled=always
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_materialist"
-	civics=
-	{
-		"civic_dystopian_society"
-		"civic_technocracy"
-	}
-	origin="origin_mechanists"
 }
 "Soul of the Galaxy"=
 {
@@ -17990,7 +15376,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 	species=
 	{
 		class="MACHINE"
-		portrait="cyb_machine"
+		portrait="sd_rep_robot"
 		species_name=
 		{
 			key="Mono"
@@ -18116,7 +15502,7 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="cyb_machine"
+		portrait="sd_rep_robot"
 		texture=0
 		evolution_mask=0
 		attachment=0
@@ -19163,4 +16549,1232 @@ Reunited as the Supreme Amanitan Republics, this remorseless work ethic combined
 		"civic_inwards_perfection"
 	}
 	origin="origin_here_be_dragons"
+}
+"Great Qud Clique"=
+{
+	key="Great Qud Clique"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_12"
+		species_name=
+		{
+			key="Qud"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Quds"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Qan"
+			literal=yes
+		}
+		name_list="MAM2"
+		gender=male
+		trait="trait_repugnant"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_industrious"
+	}
+	name=
+	{
+		key="Great Qud Clique"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Qud"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_bandit_kingdom"
+	planet_name=
+	{
+		key="Old Al'Quds"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Proxima Shams"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9314.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="Diamond.dds"
+		}
+		colors=
+		{
+			"swamp_green"
+			"black"
+			"blue"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Durim Vrinn"
+				literal=yes
+			}
+		}
+		portrait="humanoid_hp_12"
+		texture=0
+		attachment=0
+		clothes=8
+		heir_title=
+		{
+			key="Warchild"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne8_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_barbaric_despoilers"
+		"civic_warrior_culture"
+	}
+	origin="origin_default"
+}
+"27th Gox Legion"=
+{
+	key="27th Gox Legion"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="REP"
+		portrait="rep13"
+		species_name=
+		{
+			key="Goxian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Goxians"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Goxian"
+			literal=yes
+		}
+		name_list="REP3"
+		gender=not_set
+		trait="trait_clone_soldier_infertile"
+		trait="trait_very_strong"
+		trait="trait_wasteful"
+		trait="trait_camouflage"
+		trait="trait_quarrelsome"
+	}
+	name=
+	{
+		key="27th Gox Legion"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="SPEC_Gox"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_nationalist_oli"
+	advisor_voice_type="l_the_soldier"
+	planet_name=
+	{
+		key="Goxo"
+		literal=yes
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="Gox"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_14.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="TopTriangle.dds"
+		}
+		colors=
+		{
+			"black"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="REP3_CHR_Dorbax"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="rep13"
+		texture=1
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="First Marshall"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="First Marshall"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="militarist6_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_distinguished_admiralty"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_clone_army"
+}
+"Wagnerite PMC"=
+{
+	key="Wagnerite PMC"
+	ship_prefix=
+	{
+		key="Wagnerite"
+		literal=yes
+	}
+	species=
+	{
+		class="REP"
+		portrait="rep10"
+		species_name=
+		{
+			key="Wagnerite"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Wagnerites"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Wagnerite"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MAM2"
+		gender=not_set
+		trait="trait_quick_learners"
+		trait="trait_solitary"
+		trait="trait_conformists"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_nascent_stage"
+	}
+	name=
+	{
+		key="Wagnerite PMC"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Wagnerite"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_security_corp"
+	advisor_voice_type="l_the_soldier"
+	planet_name=
+	{
+		key="Libya Ultima"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Africa Minor"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="humanity"
+			file="flag_humanity_38.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="twins_eye2.dds"
+		}
+		colors=
+		{
+			"red"
+			"black"
+			"red"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MAM2_CHR_Jargim"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MAM2_CHR_denAramik"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="rep10"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_eye_for_talent"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="spiritualist11_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_naval_contractors"
+		"civic_private_military_companies"
+	}
+	origin="origin_default"
+}
+"Undefiled Sons of Sol"=
+{
+	key="Undefiled Sons of Sol"
+	ship_prefix=
+	{
+		key="SOL"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Humans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Human"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Having survived the Great Zombie war against the V-Infected Humanity has at last reached the Stars."
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_familial"
+		trait="trait_traditional"
+		trait="trait_decadent"
+		trait="trait_deviants"
+		trait="trait_natural_engineers"
+	}
+	secondary_species=
+	{
+		class="NECROID"
+		portrait="nec13"
+		species_name=
+		{
+			key="V-Infected"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="V-Infected"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="V-Infected"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_syncretic_proles"
+		trait="trait_brittle"
+		trait="trait_spare_organs"
+		trait="trait_rapid_breeders"
+	}
+	name=
+	{
+		key="Undefiled Sons of Sol"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Undefiled"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_noble_league"
+	planet_name=
+	{
+		key="Earth"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Sol"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="ornate"
+			file="flag_ornate_5.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="Hive1o.dds"
+		}
+		colors=
+		{
+			"yellow"
+			"intense_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN1_CHR_Isabel"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN1_CHR_Hernandez"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="human_female_04"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape8_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_crafters"
+		"civic_aristocratic_elite"
+	}
+	origin="origin_syncretic_evolution"
+}
+"Outer Refuge"=
+{
+	key="Outer Refuge"
+	ship_prefix=
+	{
+		key="RFS"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="cyb7"
+		species_name=
+		{
+			key="Gafar"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Gafari"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Gafar"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="osiris_chatgpt"
+		gender=not_set
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+		trait="trait_slow_breeders"
+		trait="trait_humanoid_jinxed"
+		trait="trait_adaptive"
+	}
+	name=
+	{
+		key="Outer Refuge"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Refuge"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_technocratic_dictatorship"
+	advisor_voice_type="l_cybernetic_vir"
+	planet_name=
+	{
+		key="Ganimed"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="M-Star"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="necroid"
+			file="necroid_01.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_35.dds"
+		}
+		colors=
+		{
+			"dark_brown"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="OSIRIS_CHATGPT_CN_FIRST_NAMES_FEMALE_JAEL"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="OSIRIS_CHATGPT_CN_SECOND_NAMES_CASSIOPEIA"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb7"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=2
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape11_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_free_haven"
+		"civic_technocracy"
+	}
+	origin="origin_starlit_citadel"
+}
+"Tenebrous Warpath"=
+{
+	key="Tenebrous Warpath"
+	ship_prefix=
+	{
+		key="MONK"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_08"
+		species_name=
+		{
+			key="Tenebrous"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Tenebri"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Tenebrous"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="MAM3"
+		gender=male
+		trait="trait_conformists"
+		trait="trait_strong"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_quarrelsome"
+		trait="trait_nonadaptive"
+	}
+	name=
+	{
+		key="Tenebrous Warpath"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Tenebroan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name=
+	{
+		key="Frekaria"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="Gorkian Light"
+		literal=yes
+	}
+	initializer="toxic_knights_start"
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_42_92.dds"
+		}
+		colors=
+		{
+			"sky_blue"
+			"purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MAM3_CHR_Thoraul"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MAM3_CHR_dolGilue"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_hp_08"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=10
+		ruler_title=
+		{
+			key="Abbot"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="industrial4_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_crusader_spirit"
+		"civic_parliamentary_system"
+	}
+	origin="origin_toxic_knights"
+}
+"Tenarian Reformed Church"=
+{
+	key="Tenarian Reformed Church"
+	ship_prefix=
+	{
+		key="CH"
+		literal=yes
+	}
+	species=
+	{
+		class="AVI"
+		portrait="avi11"
+		species_name=
+		{
+			key="Tenari"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Tenari"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Tenarian"
+			literal=yes
+		}
+		name_list="osiris_african"
+		gender=not_set
+		trait="trait_latent_psionic"
+		trait="trait_docile"
+		trait="trait_talented"
+		trait="trait_weak"
+	}
+	name=
+	{
+		key="Tenarian Reformed Church"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Tenarian"
+	}
+	authority="auth_dictatorial"
+	government="gov_dimensional_covenant"
+	planet_name=
+	{
+		key="Gulagag"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Verdian"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_918.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="twins_target2.dds"
+		}
+		colors=
+		{
+			"indigo"
+			"purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="OSIRIS_AFRICAN_CN_FIRST_NAMES_FEMALE_NOMSA"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="OSIRIS_AFRICAN_CN_SECOND_NAMES_QUNTA"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="avi11"
+		texture=1
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_dimensional_worship"
+		"civic_civil_education"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"Blessed Zumatran Sapdom"=
+{
+	key="Blessed Zumatran Sapdom"
+	ship_prefix=
+	{
+		key="SAP"
+		literal=yes
+	}
+	species=
+	{
+		class="PLANT"
+		portrait="pla6"
+		species_name=
+		{
+			key="Zumatran"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Zumatran"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Zumatran"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="PLANT2"
+		gender=indeterminable
+		trait="trait_aquatic"
+		trait="trait_docile"
+		trait="trait_plantoid_budding"
+		trait="trait_rooted"
+		trait="trait_weak"
+	}
+	name=
+	{
+		key="Blessed Zumatran Sapdom"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Zumatran"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name=
+	{
+		key="SPEC_Quenti_planet"
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="SPEC_Quenti_system"
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="wilderness_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="mtg_main_1"
+			file="20211021_midnight_hunt.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_11.dds"
+		}
+		colors=
+		{
+			"red_orange"
+			"blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUM1_CHR_Listhim"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUM1_CHR_dVhakk"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="pla6"
+		texture=3
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Saplord"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="Sapling"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="wilderness_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_catalytic_processing"
+		"civic_anglers"
+	}
+	origin="origin_ocean_paradise"
 }
