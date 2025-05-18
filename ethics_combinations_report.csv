@@ -11,7 +11,7 @@ N,EthicsCombination,EmpireKeys
 1,AUT;MAT;XOB,Council of the Reborn
 2,AUT;MIL;SPI,Holy Volturian Empire;The Caliphate
 1,AUT;MIL;XIL,Souki Nation
-3,AUT;MIL;XOB,Kukia Teikoku;Rhalata Shera;The Blue Horde
+2,AUT;MIL;XOB,Kukia Teikoku;The Blue Horde
 0,AUT;PAC;SPI,
 1,AUT;PAC;XIL,Imperial Core of Vermillion
 1,AUT;PAC;XOB,Nacloridan State
@@ -36,7 +36,7 @@ N,EthicsCombination,EmpireKeys
 2,EGA;SPI;XIL,Orion's Refuge;Stellar Viss Republic
 0,EGA;SPI;XOB,
 2,FAN_AUT;MAT,Black Tyrannis;The Promethokratia
-3,FAN_AUT;MIL,Gryphite Emergency Government;The Great Hond Empire;Union of Stellar Socialist Republics
+2,FAN_AUT;MIL,The Great Hond Empire;Union of Stellar Socialist Republics
 0,FAN_AUT;PAC,
 2,FAN_AUT;SPI,Bathyrian Archduchy;Realm of the Obsidian Crown
 1,FAN_AUT;XIL,Second Shahan-shahi
@@ -71,7 +71,7 @@ N,EthicsCombination,EmpireKeys
 3,FAN_XOB;MIL,Great Fafossan Crusade;Ordensstaat Burgund;The Cravers
 1,FAN_XOB;PAC,Silvernia Utopia
 2,FAN_XOB;SPI,Cult of Dioa;Mandate of the Great Old Ones
-10,GES,Atoriax Republic;Awaiter of the Singularity;Hal-ka Consciousness;Human Rescue Protocol;Rapaxspora Dominans;Roots of the Cedar;Sol Emergency Government;The World-Eaters;Vastuan Mining Corp.;pi_calc.py
+7,GES,Atoriax Republic;Hal-ka Consciousness;Rapaxspora Dominans;Roots of the Cedar;The World-Eaters;Vastuan Mining Corp.;pi_calc.py
 2,MAT;MIL;XIL,Federation of Terrakin;Hirriosh Empire
 1,MAT;MIL;XOB,Metal Warrior Kingdom
 1,MAT;PAC;XIL,Seekers of the Past

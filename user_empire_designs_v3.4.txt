@@ -1,149 +1,3 @@
-"Sol Emergency Government"=
-{
-	key="Sol Emergency Government"
-	ship_prefix=
-	{
-		key="ISS"
-	}
-	species=
-	{
-		class="MACHINE"
-		portrait="sd_rep_robot"
-		species_name=
-		{
-			key="SPEC_Model-16"
-		}
-		species_plural=
-		{
-			key="SPEC_Model-16_pl"
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="SPEC_Model-16"
-					}
-				}
- 
-			}
-		}
-		name_list="MACHINE2"
-		gender=not_set
-		trait="trait_machine_unit"
-		trait="trait_robot_efficient_processors"
-		trait="trait_robot_luxurious"
-		trait="trait_robot_mass_produced"
-		trait="trait_robot_bulky"
-	}
-	secondary_species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Human"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Humans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Human"
-			literal=yes
-		}
-		name_list="HUMAN1"
-		gender=not_set
-		trait="trait_cybernetic"
-		trait="trait_adaptive"
-		trait="trait_nomadic"
-		trait="trait_wasteful"
-	}
-	name=
-	{
-		key="Sol Emergency Government"
-		literal=yes
-	}
-	adjective=
-	{
-		key="Sol"
-		literal=yes
-	}
-	authority="auth_machine_intelligence"
-	government="gov_machine_assimilator"
-	advisor_voice_type="l_machine"
-	planet_name=
-	{
-		key="Earth"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Sol"
-		literal=yes
-	}
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_9.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"black"
-			"red"
-			"orange"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="Logos"
-				literal=yes
-			}
-		}
-		portrait="sd_rep_robot"
-		texture=1
-		attachment=0
-		clothes=0
-		trait="trait_ruler_eye_for_talent"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="machine_room"
-	spawn_enabled=no
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_machine_assimilator"
-		"civic_machine_ota_updates"
-	}
-	origin="origin_doomsday"
-}
 "The Galactic Papacy"=
 {
 	key="The Galactic Papacy"
@@ -1342,342 +1196,6 @@
 	}
 	origin="origin_clone_army"
 }
-"Gryphite Emergency Government"=
-{
-	key="Gryphite Emergency Government"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="LITHOID"
-		portrait="lith2"
-		species_name=
-		{
-			key="Gryphite"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Gryphites"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Gryphite"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="osiris_ancientgreek"
-		gender=not_set
-		trait="trait_lithoid"
-		trait="trait_industrious"
-		trait="trait_nomadic"
-		trait="trait_unruly"
-		trait="trait_deviants"
-		trait="trait_incubator"
-	}
-	name=
-	{
-		key="Gryphite Emergency Government"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Gryphite"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_dictatorial"
-	government="gov_military_dictatorship"
-	advisor_voice_type="l_lithoid_vir"
-	planet_name=
-	{
-		key="Gryphonia"
-		literal=yes
-	}
-	planet_class="pc_alpine"
-	system_name=
-	{
-		key="Gryphonia"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="domination"
-			file="domination_21.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="flag_BG_26.dds"
-		}
-		colors=
-		{
-			"dark_red"
-			"yellow"
-			"orange"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="LITHOID2_CHR_Tem"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="LITHOID2_CHR_Trex"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="lith2"
-		texture=3
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="High Admiral"
-			literal=yes
-		}
-		ruler_title_female=
-		{
-			key="High Admiral"
-			literal=yes
-		}
-		trait="leader_trait_fleet_organizer"
-		leader_class="commander"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="militarist5_room"
-	spawn_enabled=no
-	ethic="ethic_fanatic_authoritarian"
-	ethic="ethic_militarist"
-	civics=
-	{
-		"civic_dystopian_society"
-		"civic_distinguished_admiralty"
-	}
-	origin="origin_doomsday"
-}
-"Human Rescue Protocol"=
-{
-	key="Human Rescue Protocol"
-	ship_prefix=
-	{
-		key="HRPS"
-		literal=yes
-	}
-	species=
-	{
-		class="MACHINE"
-		portrait="sd_rep_robot"
-		species_name=
-		{
-			key="H.R.P.-Bot"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="H.R.P.-Bots"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="H.R.P.-Bot"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="MACHINE1"
-		gender=not_set
-		trait="trait_machine_unit"
-		trait="trait_robot_efficient_processors"
-		trait="trait_robot_luxurious"
-		trait="trait_robot_mass_produced"
-		trait="trait_robot_high_maintenance"
-	}
-	secondary_species=
-	{
-		class="HUM"
-		portrait="human"
-		species_name=
-		{
-			key="Human"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Humans"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="Human"
-			literal=yes
-		}
-		name_list="HUMAN1"
-		gender=not_set
-		trait="trait_adaptive"
-		trait="trait_rapid_breeders"
-		trait="trait_traditional"
-		trait="trait_unruly"
-		trait="trait_deviants"
-	}
-	name=
-	{
-		key="Human Rescue Protocol"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="H.R.P."
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_machine_intelligence"
-	government="gov_machine_servitor"
-	advisor_voice_type="l_machine"
-	planet_name=
-	{
-		key="Earth"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name=
-	{
-		key="Sol"
-		literal=yes
-	}
-	initializer="sol_system_initializer"
-	graphical_culture="humanoid_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="human"
-			file="flag_human_9.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"blue"
-			"beige"
-			"orange"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="Alpha 0.2"
-				literal=yes
-			}
-		}
-		portrait="sd_rep_robot"
-		texture=0
-		attachment=0
-		clothes=0
-		ruler_title=
-		{
-			key="Protocol Version"
-			literal=yes
-		}
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="apocalyptic7_room"
-	spawn_enabled=no
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_machine_servitor"
-		"civic_machine_ota_updates"
-	}
-	origin="origin_doomsday"
-}
 "Seekers of the Past"=
 {
 	key="Seekers of the Past"
@@ -2209,7 +1727,7 @@
  
 			}
 		}
-		name_list="osiris_novelmashup"
+		name_list="MACHINE_AGE1"
 		gender=not_set
 		trait="trait_survivor"
 		trait="trait_incubator"
@@ -2289,7 +1807,7 @@
 						key="1"
 						value=
 						{
-							key="OSIRIS_NOVELMASHUP_CN_FIRST_NAMES_FEMALE_MIRANDA"
+							key="CYBERPUNK1_CHR_Ren"
 						}
 					}
  
@@ -2297,7 +1815,7 @@
 						key="2"
 						value=
 						{
-							key="OSIRIS_NOVELMASHUP_CN_SECOND_NAMES_BENITEZ"
+							key="CYBERPUNK1_CHR_Caster"
 						}
 					}
  
@@ -2305,8 +1823,9 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="mammalian_ar_03"
+		portrait="mammalian_ar_03_f"
 		texture=1
+		evolution_mask=0
 		attachment=0
 		clothes=1
 		trait="trait_ruler_eye_for_talent"
@@ -3365,161 +2884,6 @@
 	}
 	origin="origin_default"
 }
-"Rhalata Shera"=
-{
-	key="Rhalata Shera"
-	ship_prefix=
-	{
-		key="CWG"
-		literal=yes
-	}
-	species=
-	{
-		class="NECROID"
-		portrait="nec9"
-		species_name=
-		{
-			key="Rhalata"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Rhalata"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Rhalata"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="NECROID1"
-		gender=not_set
-		trait="trait_thrifty"
-		trait="trait_unruly"
-		trait="trait_adaptive"
-	}
-	name=
-	{
-		key="Rhalata Shera"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Rhalata"
-				}
-			}
- 
-		}
-	}
-	authority="auth_corporate"
-	government="gov_criminal_syndicate"
-	advisor_voice_type="l_necroid_vir"
-	planet_name=
-	{
-		key="Shera"
-		literal=yes
-	}
-	planet_class="pc_alpine"
-	system_name=
-	{
-		key="Shera"
-		literal=yes
-	}
-	initializer=""
-	graphical_culture="necroid_01"
-	city_graphical_culture="necroid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="corporate"
-			file="corporate_9009.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="DiamondBannerUltraWideB.dds"
-		}
-		colors=
-		{
-			"black"
-			"light_turquoise"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=male
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="NECROID1_CHR_Lougher"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="NECROID1_CHR_Anfel"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="nec9"
-		texture=3
-		attachment=0
-		clothes=0
-		trait="leader_trait_spycraft"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="tech16_room"
-	spawn_enabled=no
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	civics=
-	{
-		"civic_criminal_heritage"
-		"civic_corporate_sovereign_guardianship"
-	}
-	origin="origin_default"
-}
 "pi_calc.py"=
 {
 	key="pi_calc.py"
@@ -3971,161 +3335,6 @@
 		"civic_heroic_tales"
 	}
 	origin="origin_default"
-}
-"Awaiter of the Singularity"=
-{
-	key="Awaiter of the Singularity"
-	ship_prefix=
-	{
-		key=""
-		literal=yes
-	}
-	species=
-	{
-		class="LITHOID"
-		portrait="lith7"
-		species_name=
-		{
-			key="Blokker"
-			literal=yes
-		}
-		species_plural=
-		{
-			key="Blokkers"
-			literal=yes
-		}
-		species_adjective=
-		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Blokker"
-						literal=yes
-					}
-				}
- 
-			}
-		}
-		name_list="LITHOID4"
-		gender=not_set
-		trait="trait_lithoid"
-		trait="trait_hive_mind"
-		trait="trait_industrious"
-		trait="trait_incubator"
-		trait="trait_enduring"
-		trait="trait_repugnant"
-		trait="trait_solitary"
-	}
-	name=
-	{
-		key="Awaiter of the Singularity"
-		literal=yes
-	}
-	adjective=
-	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Awaiters"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_hive_mind"
-	government="gov_devouring_swarm"
-	planet_name=
-	{
-		key="SPEC_HRuni_planet"
-	}
-	planet_class="pc_tundra"
-	system_name=
-	{
-		key="SPEC_HRuni_system"
-	}
-	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
-	empire_flag=
-	{
-		icon=
-		{
-			category="spherical"
-			file="flag_spherical_4.dds"
-		}
-		background=
-		{
-			category="backgrounds"
-			file="circle.dds"
-		}
-		colors=
-		{
-			"black"
-			"dark_teal"
-			"black"
-			"null"
-		}
-	}
-	ruler=
-	{
-		gender=female
-		name=
-		{
-			full_names=
-			{
-				key="%LEADER_2%"
-				variables=
-				{
-					
-					{
-						key="1"
-						value=
-						{
-							key="LITHOID4_CHR_Restok"
-						}
-					}
- 
-					{
-						key="2"
-						value=
-						{
-							key="LITHOID4_CHR_Dock-Naest"
-						}
-					}
- 
-				}
-			}
-			use_full_regnal_name=yes
-		}
-		portrait="lith7"
-		texture=0
-		attachment=0
-		clothes=0
-		trait="trait_ruler_industrialist"
-		leader_class="official"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="outdoor8_room"
-	spawn_enabled=no
-	ethic="ethic_gestalt_consciousness"
-	civics=
-	{
-		"civic_hive_devouring_swarm"
-		"civic_hive_subspace_ephapse"
-	}
-	origin="origin_galactic_doorstep"
 }
 "The Cravers"=
 {
@@ -9059,24 +8268,24 @@
  
 			}
 		}
-		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		species_bio="The Dwaph, a subterranean species, reside deep within the planet Dwaphiona. Once a thriving civilization, their own greed led to toxic industrialization that devastated the surface, forcing them to retreat underground. Adapting to this harsh environment, the Dwaph developed heightened senses, bioluminescent markings, and the ability to metabolize toxic chemicals. Consequently, their bodies secrete a repulsive odor, making them toxic and unpleasant to other species.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Despite their reclusive nature, the Dwaph exhibit a complex social structure and excel in crafting and engineering. As they advance technologically, they aim to restore Dwaphiona to its former state and seek to explore the cosmos, uncovering potential allies or adversaries among other civilizations."
 		name_list="TOX3"
 		gender=not_set
@@ -13914,7 +13123,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 	}
 	authority="auth_hive_mind"
-	government="gov_hive_mind"
+	government="gov_wilderness"
 	planet_name=
 	{
 		key="Hal-ka"
@@ -14001,7 +13210,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	species=
 	{
 		class="MAM"
-		portrait="mam2"
+		portrait="mam16"
 		species_name=
 		{
 			key="Hisi"
@@ -14128,7 +13337,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="mam2"
+		portrait="mam16"
 		texture=3
 		evolution_mask=0
 		attachment=0
@@ -14468,7 +13677,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	species=
 	{
 		class="MOL"
-		portrait="mol1"
+		portrait="mol4"
 		species_name=
 		{
 			key="Arken"
@@ -14594,7 +13803,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="mol1"
+		portrait="mol4"
 		texture=1
 		evolution_mask=0
 		attachment=0
@@ -16733,7 +15942,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 	}
 	authority="auth_oligarchic"
-	government="gov_nationalist_oli"
+	government="gov_military_junta"
 	advisor_voice_type="l_the_soldier"
 	planet_name=
 	{
@@ -16880,7 +16089,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 	}
 	authority="auth_corporate"
-	government="gov_security_corp"
+	government="gov_megacorporation"
 	advisor_voice_type="l_the_soldier"
 	planet_name=
 	{
@@ -17019,7 +16228,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	secondary_species=
 	{
 		class="NECROID"
-		portrait="nec13"
+		portrait="nec1"
 		species_name=
 		{
 			key="V-Infected"
@@ -17077,7 +16286,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 		}
 	}
 	authority="auth_oligarchic"
-	government="gov_noble_league"
+	government="gov_executive_committee"
 	planet_name=
 	{
 		key="Earth"
@@ -17154,7 +16363,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="cityscape8_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_materialist"
 	civics=
@@ -17203,7 +16412,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
  
 			}
 		}
-		name_list="osiris_chatgpt"
+		name_list="MAM4"
 		gender=not_set
 		trait="trait_natural_engineers"
 		trait="trait_intelligent"
@@ -17285,7 +16494,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="1"
 						value=
 						{
-							key="OSIRIS_CHATGPT_CN_FIRST_NAMES_FEMALE_JAEL"
+							key="MAM4_CHR_Enim"
 						}
 					}
  
@@ -17293,7 +16502,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="2"
 						value=
 						{
-							key="OSIRIS_CHATGPT_CN_SECOND_NAMES_CASSIOPEIA"
+							key="MAM4_CHR_daughterofMatu"
 						}
 					}
  
@@ -17474,7 +16683,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="industrial4_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_militarist"
 	ethic="ethic_spiritualist"
 	civics=
@@ -17511,7 +16720,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 			key="Tenarian"
 			literal=yes
 		}
-		name_list="osiris_african"
+		name_list="AVI4"
 		gender=not_set
 		trait="trait_latent_psionic"
 		trait="trait_docile"
@@ -17578,7 +16787,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="1"
 						value=
 						{
-							key="OSIRIS_AFRICAN_CN_FIRST_NAMES_FEMALE_NOMSA"
+							key="AVI4_CHR_Atriko"
 						}
 					}
  
@@ -17586,7 +16795,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 						key="2"
 						value=
 						{
-							key="OSIRIS_AFRICAN_CN_SECOND_NAMES_QUNTA"
+							key="AVI4_CHR_Onehua"
 						}
 					}
  
@@ -17768,7 +16977,7 @@ Despite their reclusive nature, the Dwaph exhibit a complex social structure and
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="wilderness_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_spiritualist"
 	civics=

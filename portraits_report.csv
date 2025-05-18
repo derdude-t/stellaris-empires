@@ -35,7 +35,7 @@ N;Name;Reiche
 1;fun2;United Districts of Dix
 1;fun6;Black Tyrannis
 1;fun7;Covenant of Uriy
-7;human;"Federation of Terrakin;Lone Star State;Metal Warrior Kingdom;Order of the Ethereal;Undefiled Sons of Sol;secondary_Human Rescue Protocol;secondary_Sol Emergency Government"
+5;human;"Federation of Terrakin;Lone Star State;Metal Warrior Kingdom;Order of the Ethereal;Undefiled Sons of Sol"
 1;human_legacy;secondary_Lone Star State
 2;humanoid_03;"Alari Ascendancy;Empire of The Fist"
 2;humanoid_05;"Clerk State;Interstellar Financial Clerkship"
@@ -45,15 +45,14 @@ N;Name;Reiche
 1;lith11;The World-Eaters
 1;lith13;Guilds of Minimor
 1;lith15;The Thousand Year Empire
-1;lith2;Gryphite Emergency Government
 1;lith3;secondary_Nacloridan State
 1;lith4;The Red Army
-1;lith7;Awaiter of the Singularity
 1;mam1;State of Utopia
 1;mam10;secondary_The Thousand Year Empire
 1;mam11;Bathyrian Archduchy
 1;mam13;Union of Stellar Socialist Republics
-2;mam2;"Haa'ra Perfectionists;Rharion's Idyll Protectorate"
+1;mam16;Haa'ra Perfectionists
+1;mam2;Rharion's Idyll Protectorate
 1;mam5;Tumbatoran Sovereignty
 2;mam6;"Democratic Republic of Almania;Federal Republic of Almania"
 1;mam7;Hirriosh Empire
@@ -64,18 +63,19 @@ N;Name;Reiche
 1;mammalian_ar_06;Gorothian Mechanocracy
 1;mammalian_ar_08;Stellar Viss Republic
 1;mammalian_ar_09;Realm of the Azurian Crown
-2;mol1;"Arken Mechnocracy;Kukia Teikoku"
+1;mol1;Kukia Teikoku
 1;mol14;Guards to the Gates of Babylon 
 1;mol2;Atoriax Republic
+1;mol4;Arken Mechnocracy
 1;mol5;The Blue Horde
+1;nec1;secondary_Undefiled Sons of Sol
 1;nec10;Realm of the Obsidian Crown
 2;nec11;"Second Shahan-shahi;Seekers of the Past"
-2;nec13;"Ordensstaat Burgund;secondary_Undefiled Sons of Sol"
+1;nec13;Ordensstaat Burgund
 1;nec14;The Mortal Archkingdom
 1;nec3;The Caliphate
 2;nec4;"Imperial Core of Vermillion;The Galactic Papacy"
 1;nec8;Council of the Reborn
-1;nec9;Rhalata Shera
 1;pla12;The Shroudborn
 1;pla13; Guardians of Yggdrasil
 1;pla14;Okon Commune
@@ -89,7 +89,7 @@ N;Name;Reiche
 1;rep12;secondary_Realm of the Obsidian Crown
 1;rep13;27th Gox Legion
 1;rep15;Souki Nation
-3;sd_rep_robot;"Human Rescue Protocol;Sol Emergency Government;Will of the Creator"
+1;sd_rep_robot;Will of the Creator
 1;synth04;Nylli Company
 1;synth07;Azith Reick
 1;synth09;The Heralds
